@@ -1,1 +1,525 @@
-{}
+{
+  "site": {
+    "name": "Invokyr Wiki",
+    "shortName": "Invokyr",
+    "tagline": "Leitfäden, Charaktere und Mechaniken zum Fantasy-Beschwörungs-RPG",
+    "description": "Das Invokyr Wiki bietet Leitfäden, Charakterinfos, Spieltipps, Gegenstandsdetails und Community-Ressourcen, damit Spieler Invokyr erkunden und seine Mechaniken meistern können.",
+    "legalNotice": "Inoffizielles Fan-Wiki. Von Spielern für Spieler gemacht."
+  },
+  "nav": {
+    "home": "Startseite",
+    "menu": "Menü",
+    "toggleTheme": "Design wechseln",
+    "guide": "Leitfaden",
+    "mechanics": "Mechaniken",
+    "multiplayer": "Mehrspieler",
+    "controls": "Steuerung",
+    "release": "Veröffentlichung",
+    "platforms": "Plattformen",
+    "community": "Community"
+  },
+  "guide": {
+    "overviewTitle": "Invokyr Leitfäden",
+    "overviewDescription": "Schritt-für-Schritt-Leitfäden zu Invokyr mit erstem Durchlauf, Siegstrategien, Rätseln, Komplettlösungen und Anfängertipps für das verfluchte Brettspiel."
+  },
+  "mechanics": {
+    "overviewTitle": "Invokyr Spielmechaniken",
+    "overviewDescription": "Erfahre, wie Invokyr-Würfel, Monster, Gegner, Rätsel, der geheime Raum und die finale Flucht wirklich funktionieren."
+  },
+  "multiplayer": {
+    "overviewTitle": "Invokyr Mehrspieler & Koop",
+    "overviewDescription": "Alles zum Invokyr-Koop: Spielerzahl, 4-Spieler-Runden, plattformübergreifende Unterstützung und wie man mit Freunden überlebt."
+  },
+  "controls": {
+    "overviewTitle": "Invokyr Steuerung & Einstellungen",
+    "overviewDescription": "Alle Invokyr-Steuerungsschemata, Demo-Steuerung, Push-to-Talk-Einrichtung und Lösungen, wenn das Mikrofon nicht funktioniert."
+  },
+  "release": {
+    "overviewTitle": "Invokyr Veröffentlichung & Updates",
+    "overviewDescription": "Invokyr-Release-Termin, Early-Access-Status, Demo-Details, die Steam-Seite und die neuesten Patch-Notes."
+  },
+  "platforms": {
+    "overviewTitle": "Invokyr Plattformen & Anforderungen",
+    "overviewDescription": "Auf welchen Plattformen Invokyr läuft, Konsolen- und Switch-Status, Mac-Unterstützung und die vollständigen Systemanforderungen."
+  },
+  "community": {
+    "overviewTitle": "Invokyr Community",
+    "overviewDescription": "Offizielle Invokyr-Discord-, Reddit- und YouTube-Kanäle sowie Orte, an denen du andere Spieler findest."
+  },
+  "home": {
+    "meta": {
+      "title": "Invokyr Wiki — Leitfäden, Charaktere & Items",
+      "description": "Das Invokyr Wiki bietet Leitfäden, Charakterinfos, Spieltipps, Gegenstandsdetails und Community-Ressourcen, damit Spieler Invokyr erkunden und seine Mechaniken meistern können."
+    },
+    "hero": {
+      "eyebrow": "Fantasy-Beschwörungsabenteuer",
+      "title": "Invokyr Wiki",
+      "description": "Ein Community-Wiki zu Invokyr mit Gameplay-Leitfäden, Charakterinfos, Erklärungen der Mechaniken, Gegenstandsdetails und nützlichen Ressourcen für Spieler.",
+      "stats": [
+        "Besuche insgesamt",
+        "Verfügbare Einheiten",
+        "Aktive Codes",
+        "Tägliche Updates"
+      ],
+      "primaryCta": "Anfänger-Leitfaden",
+      "secondaryCta": "Beschwörungs-Tier-List",
+      "tertiaryCta": "Aktive Codes",
+      "videoLabel": "Offizieller Trailer"
+    },
+    "updates": {
+      "title": "Neueste Updates",
+      "browse": "Alle Leitfäden ansehen",
+      "viewAll": "Alle ansehen"
+    },
+    "start": {
+      "eyebrow": "Hier beginnen",
+      "title": "Deine Invokyr-Reise",
+      "cards": [
+        {
+          "number": "1",
+          "title": "Anfänger-Leitfaden",
+          "description": "Lerne die Spielschleife des verfluchten Brettspiels ab deinem ersten Wurf kennen: Tisch aufbauen, Einmal-Würfel verwalten und die erste Nacht im Herrenhaus überleben."
+        },
+        {
+          "number": "2",
+          "title": "Würfel-Leitfaden",
+          "description": "Verstehe jeden Würfeltyp, jeden verfluchten Götzen und jeden Einmaleffekt, damit dein Team niemals einen starken Wurf im falschen Raum verbrennt."
+        },
+        {
+          "number": "3",
+          "title": "Rätsel & geheimer Raum",
+          "description": "Löse die Rätsel des Herrenhauses und entdecke verborgene Räume, die zusätzliche Würfel, Abkürzungen und die Hinweise für das Finale liefern."
+        },
+        {
+          "number": "4",
+          "title": "Monster & Überleben",
+          "description": "Untersuche, wie der Gamemaster Jäger in den Biomen Dschungel, Eisberg und Spielzeugtruhe erscheinen lässt, und lerne, die Sichtlinie zu brechen und zu entkommen."
+        }
+      ]
+    },
+    "popular": {
+      "eyebrow": "Beliebte Seiten",
+      "title": "Gerade im Trend",
+      "quickLinks": [
+        "Anfänger-Leitfaden",
+        "Würfel-Mechaniken",
+        "Wie man gewinnt",
+        "Monster-Leitfaden"
+      ],
+      "cards": [
+        {
+          "badge": "Anfänger",
+          "title": "Invokyr Leitfaden",
+          "description": "Die komplette Komplettlösung des verfluchten Brettspiels: Würfeldisziplin, Rätsellösungen, der geheime Raum und die finale Fluchtsequenz.",
+          "href": "/guide/invokyr-guide"
+        },
+        {
+          "badge": "Beliebt",
+          "title": "Würfel-Mechaniken",
+          "description": "Jeder Einmal-Würfel, jeder verfluchte Götze-Effekt und das Timing, das entscheidet, ob dein Team das Brett beendet.",
+          "href": "/mechanics/invokyr-dice"
+        },
+        {
+          "badge": "Aktualisiert",
+          "title": "Wie man gewinnt",
+          "description": "Die beiden Bedingungen für das Finale: das Brettspiel in den letzten Raum bringen und die Spracheingabe aktivieren.",
+          "href": "/guide/invokyr-how-to-win"
+        },
+        {
+          "badge": "Neu",
+          "title": "Monster erklärt",
+          "description": "Wie der Gamemaster Bedrohungen erscheinen lässt, was jedes Biom bei einer Jagd bewirkt und welche Gewohnheiten die Jäger von deinem Team fernhalten.",
+          "href": "/mechanics/invokyr-monsters"
+        },
+        {
+          "badge": "Beliebt",
+          "title": "Mehrspieler & Koop",
+          "description": "Rollen, Würfelbesitz und Sprachdisziplin für Teams von einem bis sechs Spielern, die gemeinsam den Gamemaster überleben.",
+          "href": "/multiplayer/invokyr-multiplayer"
+        },
+        {
+          "badge": "Neu",
+          "title": "Leitfaden zum geheimen Raum",
+          "description": "Wie das Labyrinth Räume verbirgt, wo man nach zusätzlichen Würfeln sucht und welche Zeichen eine verborgene Tür verraten.",
+          "href": "/mechanics/invokyr-secret-room"
+        },
+        {
+          "badge": "Aktualisiert",
+          "title": "Release-Termin & Early Access",
+          "description": "Bestätigter Release-Termin, Freischaltzeiten, Demo-Status, Preis und Plattformunterstützung für Invokyr.",
+          "href": "/release/invokyr-release-date"
+        },
+        {
+          "badge": "Beliebt",
+          "title": "Steuerung & Einstellungen",
+          "description": "Standard-Tastaturbelegung, Interaktionshinweise und die Kniffe, mit denen sich das Spiel besser anfühlt.",
+          "href": "/controls/invokyr-controls"
+        }
+      ]
+    },
+    "aboutGame": {
+      "title": "Was ist Invokyr?",
+      "paragraphs": [
+        "Invokyr ist ein Koop-Survival-Horrorspiel rund um ein verfluchtes Brettspiel aus den 1970er-Jahren. Du und bis zu fünf Freunde sitzen in einem stöhnenden Herrenhaus fest, in dem ein verbitterter, verspielter Gamemaster euch zum Spielen einlädt und jeder Würfelwurf eine Falle, einen Fluch oder eine Kreatur beschwören kann, die auf ihre eigene Weise jagt. Das Haus ist ein Labyrinth aus den Biomen Dschungel, Eisberg und überdimensionierte Spielzeugtruhe, und sich auf dem Weg zurück zum Brett zu verirren, kann eine Runde beenden.",
+        "Die Flucht ist nie nur ein Schalter. Dein Team muss goldene Götzen bergen, die begrenzten Einmal-Würfel klug einsetzen, gestapelte Flüche abtragen und das Brettspiel selbst in den letzten Raum tragen, bevor das gesprochene Ende ausgelöst wird. Invokyr erscheint am 8. Oktober 2026 im Steam Early Access, entwickelt und veröffentlicht von Ludogram, mit einer bereits verfügbaren kostenlosen Demo, damit du die Würfelökonomie vor dem Release lernst."
+      ],
+      "stats": [
+        {
+          "label": "Entwickler",
+          "value": "Ludogram"
+        },
+        {
+          "label": "Publisher",
+          "value": "Ludogram / Shochiku"
+        },
+        {
+          "label": "Plattform",
+          "value": "PC (Steam)"
+        },
+        {
+          "label": "Genre",
+          "value": "Koop-Survival-Horror"
+        },
+        {
+          "label": "Spieler",
+          "value": "Online-Koop für 1–6"
+        },
+        {
+          "label": "Early Access",
+          "value": "8. Oktober 2026"
+        }
+      ],
+      "cta": "Alle Leitfäden erkunden"
+    },
+    "explore": {
+      "title": "Invokyr Wiki erkunden",
+      "description": "Meistere das verfluchte Brettspiel mit Fortschritts-Leitfäden, Analysen zu Würfeln und Götzen, Referenzen zu Monstern und Biomen sowie Koop-Überlebensstrategien.",
+      "modules": [
+        {
+          "order": 1,
+          "name": "Invokyr Wiki Anfänger-Leitfaden",
+          "description": "Ein Einstiegspfad durch das verfluchte Brettspiel mit Tischaufbau, Zugreihenfolge, Würfeldisziplin und der Schleife des ersten Durchlaufs, die ein Team am Leben hält.",
+          "href": "/guide/invokyr-guide",
+          "displayType": "step-by-step",
+          "highlights": [
+            {
+              "label": "1",
+              "detail": "Lege das Brettspiel auf den Tisch und würfle, um die ersten Felder aufzudecken."
+            },
+            {
+              "label": "2",
+              "detail": "Durchsuche Räume paarweise und markiere eine Route zurück zum zentralen Brett."
+            },
+            {
+              "label": "3",
+              "detail": "Birg goldene Götzen und verwandle sie in Einmal-Würfel."
+            },
+            {
+              "label": "4",
+              "detail": "Lies jedes Würfelergebnis, bevor sich jemand bewegt oder festlegt."
+            },
+            {
+              "label": "5",
+              "detail": "Trage gestapelte Flüche ab, bevor du tiefer in ein neues Biom vordringst."
+            },
+            {
+              "label": "6",
+              "detail": "Sammelt euch am Brett und bestätigt jedes Ziel vor dem Finale."
+            }
+          ]
+        },
+        {
+          "order": 2,
+          "name": "Invokyr Wiki Monster-Leitfaden",
+          "description": "Wie der Gamemaster Bedrohungen erscheinen lässt, was jedes Biom bei einer Jagd bewirkt und welche Überlebensgewohnheiten verhindern, dass Jäger euer Team in die Enge treiben.",
+          "href": "/mechanics/invokyr-monsters",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "Erscheinungen",
+              "detail": "Kreaturen manifestieren sich aus Brettereignissen und dem zentralen Tisch, nicht aus festen Patrouillenrouten."
+            },
+            {
+              "label": "Dschungel",
+              "detail": "Dichte Deckung verbirgt sowohl euer Team als auch die Jäger, die euch verfolgen."
+            },
+            {
+              "label": "Eisgipfel",
+              "detail": "Offene, rutschige Korridore belohnen eine schnelle und direkte Verfolgung."
+            },
+            {
+              "label": "Spielzeugtruhe",
+              "detail": "Übergroße Requisiten und Unordnung machen jeden Raum zu einem engen Labyrinth."
+            },
+            {
+              "label": "Yeti",
+              "detail": "Ein charakteristischer Biom-Jäger, der lange, gerade Fluchten bestraft."
+            },
+            {
+              "label": "Nutzen",
+              "detail": "Verstecken- und Behindern-Würfel sind eure direkteste Antwort auf eine Verfolgung."
+            }
+          ]
+        },
+        {
+          "order": 3,
+          "name": "Invokyr Wiki Würfel-Leitfaden",
+          "description": "Jeder Würfel ist ein Einmal-Würfel, daher entscheidet das Timing über die Runde. Diese Tier-List ordnet die Würfel und verfluchten Götzen-Effekte, die am wichtigsten sind.",
+          "href": "/mechanics/invokyr-dice",
+          "displayType": "tier-grid",
+          "highlights": [
+            {
+              "label": "S",
+              "detail": "Wiederbelebungs- und Heilungswürfel verwandeln eine verlorene Runde zurück in einen Abschluss."
+            },
+            {
+              "label": "A",
+              "detail": "Verstecken- und Behindern-Würfel durchbrechen die Sichtlinie und öffnen Fluchtfenster."
+            },
+            {
+              "label": "B",
+              "detail": "Standard-Bewegungswürfe halten den Fortschritt auf dem Brett, wenn das Haus ruhig ist."
+            },
+            {
+              "label": "C",
+              "detail": "Fluch- und Gefahrenwürfel werden nie absichtlich gesucht und nur eingesetzt, wenn es sein muss."
+            }
+          ]
+        },
+        {
+          "order": 4,
+          "name": "Invokyr Wiki Bretter & Biome",
+          "description": "Ein Rundgang durch die Bretter des Herrenhauses, die Biome darin und wie das Layout verändert, wie sich euer Team bewegt, versteckt und in die Enge getrieben wird.",
+          "href": "/guide/invokyr-walkthrough",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "Brett",
+              "detail": "Der zentrale Spieltisch aus den 1970ern verankert jede Runde und treibt Ereigniswürfe an."
+            },
+            {
+              "label": "Dschungel",
+              "detail": "Feuchte, überwucherte Räume, in denen die Deckung auch den Jägern nützt."
+            },
+            {
+              "label": "Eisgipfel",
+              "detail": "Gefrorene Korridore mit langen Sichtlinien und rutschigem Untergrund."
+            },
+            {
+              "label": "Spielzeugtruhe",
+              "detail": "Verrückte Maßstäbe und riesige Requisiten machen die Navigation zum Labyrinth."
+            },
+            {
+              "label": "Labyrinth",
+              "detail": "Sich weit weg vom Brett zu verirren, ist eine der schnellsten Arten zu sterben."
+            },
+            {
+              "label": "Abkürzungen",
+              "detail": "Verborgene Fugen und geheime Räume können einen gefährlichen Abschnitt überspringen."
+            }
+          ]
+        },
+        {
+          "order": 5,
+          "name": "Invokyr Wiki Mehrspieler-Leitfaden",
+          "description": "Koop-Rollen, Würfelbesitz und Sprachdisziplin für Teams von einem bis sechs Spielern, die gemeinsam den Gamemaster überleben wollen.",
+          "href": "/multiplayer/invokyr-multiplayer",
+          "displayType": "step-by-step",
+          "highlights": [
+            {
+              "label": "1",
+              "detail": "Wählt vor dem ersten Wurf eine Rolle, damit die Würfel beim richtigen Spieler landen."
+            },
+            {
+              "label": "2",
+              "detail": "Bestimmt einen Spieler, der jeden mitgeführten Einmal-Würfel des Teams verfolgt."
+            },
+            {
+              "label": "3",
+              "detail": "Haltet Sprachkontakt und ruft den Raum aus, den ihr betretet."
+            },
+            {
+              "label": "4",
+              "detail": "Sammelt euch am Brett, bevor sich jemand auf einen riskanten Wurf festlegt."
+            },
+            {
+              "label": "5",
+              "detail": "Belebt gefallene Mitspieler früh wieder, denn der Tod ist nicht immer das Ende."
+            },
+            {
+              "label": "6",
+              "detail": "Bestätigt, dass das Brettspiel vor dem letzten Raum bei der Gruppe ist."
+            }
+          ]
+        },
+        {
+          "order": 6,
+          "name": "Invokyr Wiki Updates",
+          "description": "Verfolge Early-Access-Patches, Roadmap-Notizen und neue Inhalte, während Ludogram das verfluchte Brettspiel nach dem Release erweitert.",
+          "href": "/release/invokyr-update",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "Start",
+              "detail": "Der Early Access beginnt am 8. Oktober 2026 mit einer gleichzeitigen globalen Freischaltung."
+            },
+            {
+              "label": "Roadmap",
+              "detail": "Ludogram plant etwa ein Jahr thematischer Updates vor 1.0."
+            },
+            {
+              "label": "Neue Würfel",
+              "detail": "Zusätzliche Würfel und verfluchte Regeln sind über den Early Access hinweg geplant."
+            },
+            {
+              "label": "Monster",
+              "detail": "Mehr als 15 Kreaturen und über 20 Ereignisse sind im Kern-Build enthalten."
+            },
+            {
+              "label": "Preis",
+              "detail": "Der Preis dürfte mit neuen Inhalten schrittweise steigen."
+            },
+            {
+              "label": "Feedback",
+              "detail": "Spielerberichte prägen Balancing, Schwierigkeit und Einstieg."
+            }
+          ]
+        },
+        {
+          "order": 7,
+          "name": "Invokyr Wiki Tipps und Tricks",
+          "description": "Praktische Überlebenstipps, Regeln zur Würfelökonomie und die häufigen Fehler, die Runden beenden, bevor der erste Götze das Brett erreicht.",
+          "href": "/guide/invokyr-how-to-win",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "Erst lesen",
+              "detail": "Lies das vollständige Würfelergebnis, bevor sich jemand bewegt oder einen Gegenstand ausgibt."
+            },
+            {
+              "label": "Ein Würfel",
+              "detail": "Gib niemals zwei Würfel aus, um ein einziges Problem zu lösen."
+            },
+            {
+              "label": "Bleibt zusammen",
+              "detail": "Sich über Biome zu verteilen, ist der Weg, auf dem Nachzügler abgeholt werden."
+            },
+            {
+              "label": "Götzen sparen",
+              "detail": "Sammle goldene Götzen früh und wandle sie um, wenn die Gefahr steigt."
+            },
+            {
+              "label": "Sprache an",
+              "detail": "Aktiviere die Spracheingabe vor dem Finale, sonst wird das Ende nicht ausgelöst."
+            },
+            {
+              "label": "Brett in der Hand",
+              "detail": "Trage das Brettspiel als physisches Objekt in den letzten Raum."
+            }
+          ]
+        },
+        {
+          "order": 8,
+          "name": "Invokyr Wiki Release-Informationen",
+          "description": "Bestätigte Release-Termine, Demo-Status, Plattformunterstützung und Preise, damit du genau weißt, wann und wo du spielen kannst.",
+          "href": "/release/invokyr-release-date",
+          "displayType": "code-cards",
+          "highlights": [
+            {
+              "label": "8. Okt. 2026",
+              "detail": "Early-Access-Start auf Steam mit einer gleichzeitigen globalen Freischaltung."
+            },
+            {
+              "label": "Kostenlose Demo",
+              "detail": "Die Demo erschien am 2. Juni 2026 und deckt die volle Schleife des verfluchten Bretts ab."
+            },
+            {
+              "label": "PC / Steam",
+              "detail": "Windows über Steam ist derzeit die einzige bestätigte Plattform."
+            },
+            {
+              "label": "1-6 Spieler",
+              "detail": "Der Online-Koop reicht von einer Solo-Runde bis zu einem vollen Team."
+            },
+            {
+              "label": "$12.99",
+              "detail": "Early-Access-Preis, mit einem zum Release erwarteten Startrabatt."
+            }
+          ]
+        }
+      ]
+    },
+    "faq": {
+      "title": "Häufig gestellte Fragen",
+      "description": "Schnelle Antworten auf die häufigsten Fragen zu Invokyr.",
+      "items": [
+        {
+          "question": "Was ist Invokyr?",
+          "answer": "Invokyr ist ein Koop-Survival-Horrorspiel rund um ein verfluchtes Brettspiel aus den 1970er-Jahren. Du und bis zu fünf Freunde erkundet ein labyrinthartiges Herrenhaus, würfelt mit Einmal-Würfeln, birgt goldene Götzen und versucht zu entkommen, bevor die Kreaturen des Gamemasters und seine verfluchten Regeln das Team auslöschen."
+        },
+        {
+          "question": "Wie viele Spieler können Invokyr spielen?",
+          "answer": "Invokyr unterstützt Online-Koop für ein bis sechs Spieler. Solo-Runden sind möglich, verlangen aber eine viel straffere Würfelplanung, weil niemand dich wiederbelebt oder einen Raum absichert."
+        },
+        {
+          "question": "Wann erscheint Invokyr?",
+          "answer": "Invokyr startet am 8. Oktober 2026 in den Steam Early Access, mit einer gleichzeitigen globalen Freischaltung. Eine kostenlose Demo erschien am 2. Juni 2026, sodass du das Brett und die Würfelsysteme vor dem Release lernen kannst."
+        },
+        {
+          "question": "Auf welchen Plattformen gibt es Invokyr?",
+          "answer": "Invokyr ist für Windows-PC über Steam bestätigt. Konsolen-, macOS-, Linux- und Switch-Versionen wurden nicht angekündigt, und die Steam-Deck-Kompatibilität ist noch nicht bewertet."
+        },
+        {
+          "question": "Wie gewinnt man in Invokyr?",
+          "answer": "Um in Invokyr zu entkommen, muss dein Team das physische Brettspiel in den letzten Raum bringen und die Spracheingabe aktiviert haben, damit der gesprochene Schlusssatz erkannt wird. Fehlt eine der beiden Voraussetzungen, bleibt das Finale stumm."
+        },
+        {
+          "question": "Sind die Würfel in Invokyr wiederverwendbar?",
+          "answer": "Nein. Jeder im Haus gefundene Würfel ist ein Einmal-Gegenstand, weshalb Würfeldisziplin und Rollenverteilung in Invokyr mehr zählen als reine Geschwindigkeit."
+        }
+      ]
+    },
+    "finalCta": {
+      "title": "Bereit, Invokyr zu meistern?",
+      "description": "Von deiner ersten Beschwörung bis zu den Endgame-Begegnungen deckt dich unser Community-Wiki mit kostenlosen, aktuellen Leitfäden ab.",
+      "primary": "Anfänger-Leitfaden lesen",
+      "secondary": "Auf Steam spielen"
+    }
+  },
+  "shared": {
+    "wikiNavigation": "Wiki-Navigation",
+    "activeCodes": "Aktive Codes",
+    "updated": "Aktualisiert",
+    "viewAllCodes": "Alle Codes ansehen",
+    "playOnRoblox": "Auf Roblox spielen",
+    "inThisSection": "In diesem Abschnitt",
+    "tableOfContents": "Inhaltsverzeichnis",
+    "nextSteps": "Nächste Schritte",
+    "needHelp": "Brauchst du Hilfe?",
+    "relatedReading": "Verwandte Lektüre",
+    "relatedGuides": "Verwandte Leitfäden",
+    "readMore": "Mehr lesen",
+    "officialMedia": "Offizielle Medien",
+    "home": "Startseite",
+    "noGuidesAvailable": "Noch keine Leitfäden verfügbar. Schau bald wieder vorbei!"
+  },
+  "footer": {
+    "aboutTitle": "Invokyr Wiki",
+    "about": "Das Invokyr Wiki ist ein unabhängiger, von Fans erstellter Leitfaden-Hub zu Charakteren, Beschwörungsmechaniken, Items, Builds und wichtigem Spielwissen für neue und erfahrene Spieler.",
+    "quickLinks": "Schnelllinks",
+    "guides": "Leitfäden",
+    "legal": "Rechtliches",
+    "copyright": "2026 Invokyr Wiki. Nicht mit Ludogram oder Steam verbunden.",
+    "description": "Wiki zum Fantasy-Beschwörungs-RPG mit Leitfäden, Charakteren, Items und Mechaniken.",
+    "playGame": "Invokyr auf Steam spielen",
+    "officialDiscord": "Offizieller Discord",
+    "officialYoutube": "Offizielles YouTube",
+    "vvBuilder": "Invokyr Community-Hub",
+    "beginnerGuide": "Anfänger-Leitfaden",
+    "privacyPolicy": "Datenschutzerklärung",
+    "termsOfService": "Nutzungsbedingungen",
+    "mechanicsGuides": "Mechanik-Leitfäden",
+    "multiplayerGuides": "Mehrspieler-Leitfäden",
+    "releaseInfo": "Release & Updates"
+  }
+}

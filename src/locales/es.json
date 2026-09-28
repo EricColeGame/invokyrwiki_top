@@ -1,1 +1,525 @@
-{}
+{
+  "site": {
+    "name": "Invokyr Wiki",
+    "shortName": "Invokyr",
+    "tagline": "Guías, personajes y mecánicas del RPG de invocación fantástica",
+    "description": "Invokyr Wiki ofrece guías, información de personajes, consejos de juego, detalles de objetos y recursos de la comunidad para ayudar a los jugadores a explorar Invokyr y dominar sus mecánicas.",
+    "legalNotice": "Wiki de fans no oficial. Hecha por jugadores, para jugadores."
+  },
+  "nav": {
+    "home": "Inicio",
+    "menu": "Menú",
+    "toggleTheme": "Cambiar tema",
+    "guide": "Guía",
+    "mechanics": "Mecánicas",
+    "multiplayer": "Multijugador",
+    "controls": "Controles",
+    "release": "Lanzamiento",
+    "platforms": "Plataformas",
+    "community": "Comunidad"
+  },
+  "guide": {
+    "overviewTitle": "Guías de Invokyr",
+    "overviewDescription": "Guías paso a paso de Invokyr que cubren la primera partida, cómo ganar, los acertijos, los tutoriales y consejos para principiantes del juego de mesa maldito."
+  },
+  "mechanics": {
+    "overviewTitle": "Mecánicas de Invokyr",
+    "overviewDescription": "Descubre cómo funcionan realmente los dados, los monstruos, los enemigos, los acertijos, la sala secreta y la huida final de Invokyr."
+  },
+  "multiplayer": {
+    "overviewTitle": "Multijugador y cooperativo de Invokyr",
+    "overviewDescription": "Todo sobre el cooperativo de Invokyr: número de jugadores, partidas de 4 jugadores, compatibilidad entre plataformas y cómo sobrevivir con amigos."
+  },
+  "controls": {
+    "overviewTitle": "Controles y ajustes de Invokyr",
+    "overviewDescription": "Todos los esquemas de control de Invokyr, los controles de la demo, la configuración de push-to-talk y soluciones para cuando el micrófono no funciona."
+  },
+  "release": {
+    "overviewTitle": "Lanzamiento y actualizaciones de Invokyr",
+    "overviewDescription": "Fecha de lanzamiento de Invokyr, estado de Early Access, detalles de la demo, la página de Steam y las últimas notas del parche."
+  },
+  "platforms": {
+    "overviewTitle": "Plataformas y requisitos de Invokyr",
+    "overviewDescription": "En qué plataformas funciona Invokyr, el estado en consolas y Switch, el soporte para Mac y los requisitos completos del sistema."
+  },
+  "community": {
+    "overviewTitle": "Comunidad de Invokyr",
+    "overviewDescription": "Discord, Reddit y canales de YouTube oficiales de Invokyr, además de dónde encontrar a otros jugadores."
+  },
+  "home": {
+    "meta": {
+      "title": "Invokyr Wiki — Guías, personajes y objetos",
+      "description": "Invokyr Wiki ofrece guías, información de personajes, consejos de juego, detalles de objetos y recursos de la comunidad para ayudar a los jugadores a explorar Invokyr y dominar sus mecánicas."
+    },
+    "hero": {
+      "eyebrow": "Aventura de invocación fantástica",
+      "title": "Invokyr Wiki",
+      "description": "Una wiki comunitaria de Invokyr con guías de juego, información de personajes, explicaciones de mecánicas, detalles de objetos y recursos útiles para los jugadores.",
+      "stats": [
+        "Visitas totales",
+        "Unidades disponibles",
+        "Códigos activos",
+        "Actualizaciones diarias"
+      ],
+      "primaryCta": "Guía para principiantes",
+      "secondaryCta": "Tier List de invocación",
+      "tertiaryCta": "Códigos activos",
+      "videoLabel": "Tráiler oficial"
+    },
+    "updates": {
+      "title": "Últimas actualizaciones",
+      "browse": "Ver todas las guías",
+      "viewAll": "Ver todo"
+    },
+    "start": {
+      "eyebrow": "Empieza aquí",
+      "title": "Tu viaje en Invokyr",
+      "cards": [
+        {
+          "number": "1",
+          "title": "Guía para principiantes",
+          "description": "Aprende el bucle del juego de mesa maldito desde tu primera tirada: preparar la mesa, gestionar los dados de un solo uso y sobrevivir a tu primera noche en la mansión."
+        },
+        {
+          "number": "2",
+          "title": "Guía de dados",
+          "description": "Entiende cada tipo de dado, ídolo maldito y efecto de un solo uso para que tu escuadrón nunca malgaste una tirada poderosa en la sala equivocada."
+        },
+        {
+          "number": "3",
+          "title": "Acertijos y sala secreta",
+          "description": "Resuelve los acertijos de la mansión y descubre salas ocultas que reparten dados extra, atajos y las pistas que necesitas antes del final."
+        },
+        {
+          "number": "4",
+          "title": "Monstruos y supervivencia",
+          "description": "Estudia cómo el Gamemaster genera cazadores en los biomas de jungla, montaña de hielo y cofre de juguetes, y aprende a romper la línea de visión y escapar."
+        }
+      ]
+    },
+    "popular": {
+      "eyebrow": "Páginas populares",
+      "title": "Tendencias ahora",
+      "quickLinks": [
+        "Guía para principiantes",
+        "Mecánicas de dados",
+        "Cómo ganar",
+        "Guía de monstruos"
+      ],
+      "cards": [
+        {
+          "badge": "Principiante",
+          "title": "Guía de Invokyr",
+          "description": "El recorrido completo del juego de mesa maldito: disciplina de dados, soluciones de acertijos, la sala secreta y la secuencia de huida final.",
+          "href": "/guide/invokyr-guide"
+        },
+        {
+          "badge": "Popular",
+          "title": "Mecánicas de dados",
+          "description": "Cada dado de un solo uso, el efecto de los ídolos malditos y el momento que decide si tu escuadrón termina el tablero.",
+          "href": "/mechanics/invokyr-dice"
+        },
+        {
+          "badge": "Actualizado",
+          "title": "Cómo ganar",
+          "description": "Las dos condiciones del final: llevar el juego de mesa a la sala final y activar la entrada de voz.",
+          "href": "/guide/invokyr-how-to-win"
+        },
+        {
+          "badge": "Nuevo",
+          "title": "Monstruos explicados",
+          "description": "Cómo el Gamemaster genera amenazas, qué hace cada bioma en una cacería y los hábitos que mantienen a los cazadores lejos de tu escuadrón.",
+          "href": "/mechanics/invokyr-monsters"
+        },
+        {
+          "badge": "Popular",
+          "title": "Multijugador y cooperativo",
+          "description": "Roles, propiedad de los dados y disciplina de voz para escuadrones de uno a seis jugadores que sobreviven juntos al Gamemaster.",
+          "href": "/multiplayer/invokyr-multiplayer"
+        },
+        {
+          "badge": "Nuevo",
+          "title": "Guía de la sala secreta",
+          "description": "Cómo el laberinto esconde salas, dónde buscar dados extra y las señales que revelan una puerta oculta.",
+          "href": "/mechanics/invokyr-secret-room"
+        },
+        {
+          "badge": "Actualizado",
+          "title": "Fecha de lanzamiento y Early Access",
+          "description": "Fecha de lanzamiento confirmada, horarios de desbloqueo, estado de la demo, precio y soporte de plataformas para Invokyr.",
+          "href": "/release/invokyr-release-date"
+        },
+        {
+          "badge": "Popular",
+          "title": "Controles y ajustes",
+          "description": "Distribución de teclado por defecto, avisos de interacción y los trucos que hacen que el juego se sienta mejor.",
+          "href": "/controls/invokyr-controls"
+        }
+      ]
+    },
+    "aboutGame": {
+      "title": "¿Qué es Invokyr?",
+      "paragraphs": [
+        "Invokyr es un juego de terror de supervivencia cooperativo construido alrededor de un juego de mesa maldito de los años 70. Tú y hasta cinco amigos quedáis atrapados en una mansión que gime, donde un Gamemaster amargo y caprichoso os invita a jugar, y cada tirada de dados puede invocar una trampa, una maldición o una criatura que caza a su manera. La casa es un laberinto dividido en biomas de jungla, montaña de hielo y cofre de juguetes gigante, y perder el camino de vuelta al tablero puede acabar con una partida.",
+        "Escapar nunca es un solo interruptor. Tu equipo tiene que recuperar ídolos dorados, gastar con cabeza los limitados dados de un solo uso, eliminar las maldiciones acumuladas y llevar el propio juego de mesa a la sala final antes de que se active el final hablado. Invokyr llega al Early Access de Steam el 8 de octubre de 2026, desarrollado y publicado por Ludogram, con una demo gratuita ya disponible para que aprendas la economía de dados antes del lanzamiento."
+      ],
+      "stats": [
+        {
+          "label": "Desarrollador",
+          "value": "Ludogram"
+        },
+        {
+          "label": "Distribuidor",
+          "value": "Ludogram / Shochiku"
+        },
+        {
+          "label": "Plataforma",
+          "value": "PC (Steam)"
+        },
+        {
+          "label": "Género",
+          "value": "Terror de supervivencia cooperativo"
+        },
+        {
+          "label": "Jugadores",
+          "value": "Cooperativo en línea de 1 a 6"
+        },
+        {
+          "label": "Early Access",
+          "value": "8 de octubre de 2026"
+        }
+      ],
+      "cta": "Explora todas las guías"
+    },
+    "explore": {
+      "title": "Explora Invokyr Wiki",
+      "description": "Domina el juego de mesa maldito con guías de progresión, análisis de dados e ídolos, referencias de monstruos y biomas, y estrategias de supervivencia cooperativa.",
+      "modules": [
+        {
+          "order": 1,
+          "name": "Guía para principiantes de Invokyr Wiki",
+          "description": "Un camino inicial por el juego de mesa maldito que cubre la preparación de la mesa, el orden de turnos, la disciplina de dados y el bucle de la primera partida que mantiene vivo al escuadrón.",
+          "href": "/guide/invokyr-guide",
+          "displayType": "step-by-step",
+          "highlights": [
+            {
+              "label": "1",
+              "detail": "Coloca el juego de mesa sobre la mesa y tira para revelar las primeras casillas."
+            },
+            {
+              "label": "2",
+              "detail": "Registra las salas en parejas y marca una ruta de vuelta al tablero central."
+            },
+            {
+              "label": "3",
+              "detail": "Recupera ídolos dorados y conviértelos en dados de un solo uso."
+            },
+            {
+              "label": "4",
+              "detail": "Lee cada resultado de los dados antes de que nadie se mueva o se comprometa."
+            },
+            {
+              "label": "5",
+              "detail": "Elimina las maldiciones acumuladas antes de adentrarte en un nuevo bioma."
+            },
+            {
+              "label": "6",
+              "detail": "Reagrupaos en el tablero y confirmad cada objetivo antes del final."
+            }
+          ]
+        },
+        {
+          "order": 2,
+          "name": "Guía de monstruos de Invokyr Wiki",
+          "description": "Cómo el Gamemaster genera amenazas, qué hace cada bioma en una cacería y los hábitos de supervivencia que evitan que los cazadores acorralen a tu escuadrón.",
+          "href": "/mechanics/invokyr-monsters",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "Apariciones",
+              "detail": "Las criaturas se manifiestan a partir de eventos del tablero y de la mesa central, no de rutas de patrulla fijas."
+            },
+            {
+              "label": "Jungla",
+              "detail": "La densa cobertura esconde tanto a tu escuadrón como a los cazadores que os siguen."
+            },
+            {
+              "label": "Pico de hielo",
+              "detail": "Los pasillos abiertos y resbaladizos favorecen una persecución rápida y directa."
+            },
+            {
+              "label": "Cofre de juguetes",
+              "detail": "Los objetos gigantes y el desorden convierten cada sala en un laberinto estrecho."
+            },
+            {
+              "label": "Yeti",
+              "detail": "Un cazador característico del bioma que castiga las carreras largas y rectas."
+            },
+            {
+              "label": "Utilidad",
+              "detail": "Los dados de esconderse y obstaculizar son tu respuesta más directa a una persecución."
+            }
+          ]
+        },
+        {
+          "order": 3,
+          "name": "Guía de dados de Invokyr Wiki",
+          "description": "Cada dado es de un solo uso, así que el momento decide la partida. Esta tier list clasifica los dados y los efectos de ídolos malditos que más importan.",
+          "href": "/mechanics/invokyr-dice",
+          "displayType": "tier-grid",
+          "highlights": [
+            {
+              "label": "S",
+              "detail": "Los dados de reanimar y curación convierten una partida perdida en una victoria."
+            },
+            {
+              "label": "A",
+              "detail": "Los dados de esconderse y obstaculizar rompen la línea de visión y abren ventanas de escape."
+            },
+            {
+              "label": "B",
+              "detail": "Las tiradas de movimiento estándar mantienen el progreso del tablero cuando la casa está tranquila."
+            },
+            {
+              "label": "C",
+              "detail": "Los dados de maldición y peligro nunca se buscan a propósito y solo se usan cuando es obligatorio."
+            }
+          ]
+        },
+        {
+          "order": 4,
+          "name": "Guía de tableros y biomas de Invokyr Wiki",
+          "description": "Un recorrido por los tableros de la mansión, los biomas que contienen y cómo la distribución cambia la forma en que tu escuadrón se mueve, se esconde y queda acorralado.",
+          "href": "/guide/invokyr-walkthrough",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "Tablero",
+              "detail": "La mesa de juego central de los años 70 ancla cada partida e impulsa las tiradas de eventos."
+            },
+            {
+              "label": "Jungla",
+              "detail": "Salas húmedas y cubiertas de vegetación donde la cobertura también sirve a los cazadores."
+            },
+            {
+              "label": "Pico de hielo",
+              "detail": "Pasillos helados con largas líneas de visión y suelo resbaladizo."
+            },
+            {
+              "label": "Cofre de juguetes",
+              "detail": "La escala distorsionada y los accesorios gigantes convierten la navegación en un laberinto."
+            },
+            {
+              "label": "Laberinto",
+              "detail": "Perderse lejos del tablero es una de las formas más rápidas de morir."
+            },
+            {
+              "label": "Atajos",
+              "detail": "Las costuras ocultas y las salas secretas pueden saltarse un tramo peligroso."
+            }
+          ]
+        },
+        {
+          "order": 5,
+          "name": "Guía multijugador de Invokyr Wiki",
+          "description": "Roles cooperativos, propiedad de los dados y disciplina de voz para escuadrones de uno a seis jugadores que intentan sobrevivir juntos al Gamemaster.",
+          "href": "/multiplayer/invokyr-multiplayer",
+          "displayType": "step-by-step",
+          "highlights": [
+            {
+              "label": "1",
+              "detail": "Elige un rol antes de la primera tirada para que los dados acaben en el jugador correcto."
+            },
+            {
+              "label": "2",
+              "detail": "Asigna a un jugador el seguimiento de cada dado de un solo uso que lleva el equipo."
+            },
+            {
+              "label": "3",
+              "detail": "Mantén el contacto de voz y avisa de la sala en la que entras."
+            },
+            {
+              "label": "4",
+              "detail": "Reagrupaos en el tablero antes de que alguien se comprometa con una tirada arriesgada."
+            },
+            {
+              "label": "5",
+              "detail": "Reanima pronto a los compañeros caídos, porque la muerte no siempre es el final."
+            },
+            {
+              "label": "6",
+              "detail": "Confirma que el juego de mesa está con el grupo antes de la sala final."
+            }
+          ]
+        },
+        {
+          "order": 6,
+          "name": "Actualizaciones de Invokyr Wiki",
+          "description": "Sigue los parches de Early Access, las notas de la hoja de ruta y el contenido nuevo a medida que Ludogram amplía el juego de mesa maldito tras el lanzamiento.",
+          "href": "/release/invokyr-update",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "Lanzamiento",
+              "detail": "El Early Access comienza el 8 de octubre de 2026 con un desbloqueo global simultáneo."
+            },
+            {
+              "label": "Hoja de ruta",
+              "detail": "Ludogram planea aproximadamente un año de actualizaciones temáticas antes de la 1.0."
+            },
+            {
+              "label": "Nuevos dados",
+              "detail": "Se planean dados adicionales y reglas malditas a lo largo del Early Access."
+            },
+            {
+              "label": "Monstruos",
+              "detail": "Más de 15 criaturas y más de 20 eventos llegan con la versión principal."
+            },
+            {
+              "label": "Precio",
+              "detail": "Se espera que el precio suba gradualmente a medida que llegue contenido nuevo."
+            },
+            {
+              "label": "Comentarios",
+              "detail": "Los informes de los jugadores dan forma al equilibrio, la dificultad y la incorporación."
+            }
+          ]
+        },
+        {
+          "order": 7,
+          "name": "Consejos y trucos de Invokyr Wiki",
+          "description": "Consejos prácticos de supervivencia, reglas de economía de dados y los errores comunes que acaban con las partidas antes de que el primer ídolo llegue al tablero.",
+          "href": "/guide/invokyr-how-to-win",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "Lee primero",
+              "detail": "Lee el resultado completo de los dados antes de que nadie se mueva o gaste un objeto."
+            },
+            {
+              "label": "Un dado",
+              "detail": "Nunca gastes dos dados para resolver un solo problema."
+            },
+            {
+              "label": "Manteneos cerca",
+              "detail": "Separarse entre biomas es como los rezagados acaban cazados."
+            },
+            {
+              "label": "Ahorra ídolos",
+              "detail": "Acumula ídolos dorados pronto y conviértelos cuando el peligro aumente."
+            },
+            {
+              "label": "Voz activada",
+              "detail": "Activa la entrada de voz antes del final o el desenlace no se activará."
+            },
+            {
+              "label": "Tablero en mano",
+              "detail": "Lleva el juego de mesa a la sala final como objeto físico."
+            }
+          ]
+        },
+        {
+          "order": 8,
+          "name": "Información de lanzamiento de Invokyr Wiki",
+          "description": "Fechas de lanzamiento confirmadas, estado de la demo, soporte de plataformas y precios para que sepas exactamente cuándo y dónde jugar.",
+          "href": "/release/invokyr-release-date",
+          "displayType": "code-cards",
+          "highlights": [
+            {
+              "label": "8 oct 2026",
+              "detail": "Lanzamiento de Early Access en Steam con un desbloqueo global simultáneo."
+            },
+            {
+              "label": "Demo gratis",
+              "detail": "La demo se lanzó el 2 de junio de 2026 y cubre todo el bucle del juego de mesa maldito."
+            },
+            {
+              "label": "PC / Steam",
+              "detail": "Windows a través de Steam es la única plataforma confirmada por ahora."
+            },
+            {
+              "label": "1-6 jugadores",
+              "detail": "El cooperativo en línea va desde una partida en solitario hasta un escuadrón completo."
+            },
+            {
+              "label": "$12.99",
+              "detail": "Precio de Early Access, con un descuento de lanzamiento previsto para el estreno."
+            }
+          ]
+        }
+      ]
+    },
+    "faq": {
+      "title": "Preguntas frecuentes",
+      "description": "Respuestas rápidas a las preguntas más comunes sobre Invokyr.",
+      "items": [
+        {
+          "question": "¿Qué es Invokyr?",
+          "answer": "Invokyr es un juego de terror de supervivencia cooperativo construido alrededor de un juego de mesa maldito de los años 70. Tú y hasta cinco amigos exploráis una mansión laberíntica, tiráis dados de un solo uso, recuperáis ídolos dorados e intentáis escapar antes de que las criaturas del Gamemaster y sus reglas malditas acaben con el escuadrón."
+        },
+        {
+          "question": "¿Cuántos jugadores pueden jugar a Invokyr?",
+          "answer": "Invokyr admite cooperativo en línea para uno a seis jugadores. Las partidas en solitario son posibles, pero exigen una gestión de dados mucho más ajustada, porque no hay nadie que te reanime ni cubra una sala."
+        },
+        {
+          "question": "¿Cuándo se lanza Invokyr?",
+          "answer": "Invokyr entra en Early Access de Steam el 8 de octubre de 2026, con un desbloqueo global simultáneo. Una demo gratuita se lanzó el 2 de junio de 2026, así que puedes aprender el tablero y los sistemas de dados antes del día del lanzamiento."
+        },
+        {
+          "question": "¿En qué plataformas está Invokyr?",
+          "answer": "Invokyr está confirmado para PC con Windows a través de Steam. Las versiones para consola, macOS, Linux y Switch no se han anunciado, y la compatibilidad con Steam Deck sigue sin valorar."
+        },
+        {
+          "question": "¿Cómo se gana en Invokyr?",
+          "answer": "Para escapar en Invokyr, tu escuadrón debe llevar el juego de mesa físico a la sala final y tener activada la entrada de voz para que se registre la frase final hablada. Si falta cualquiera de los dos requisitos, el final permanece en silencio."
+        },
+        {
+          "question": "¿Se pueden reutilizar los dados en Invokyr?",
+          "answer": "No. Cada dado recuperado de la casa es un objeto de un solo uso, por eso la disciplina con los dados y el reparto de roles importan más que la velocidad bruta en Invokyr."
+        }
+      ]
+    },
+    "finalCta": {
+      "title": "¿Listo para dominar Invokyr?",
+      "description": "Desde tu primera invocación hasta los encuentros del final del juego, nuestra wiki comunitaria te cubre con guías gratuitas y actualizadas.",
+      "primary": "Lee la guía para principiantes",
+      "secondary": "Jugar en Steam"
+    }
+  },
+  "shared": {
+    "wikiNavigation": "Navegación de la wiki",
+    "activeCodes": "Códigos activos",
+    "updated": "Actualizado",
+    "viewAllCodes": "Ver todos los códigos",
+    "playOnRoblox": "Jugar en Roblox",
+    "inThisSection": "En esta sección",
+    "tableOfContents": "Índice",
+    "nextSteps": "Próximos pasos",
+    "needHelp": "¿Necesitas ayuda?",
+    "relatedReading": "Lecturas relacionadas",
+    "relatedGuides": "Guías relacionadas",
+    "readMore": "Leer más",
+    "officialMedia": "Medios oficiales",
+    "home": "Inicio",
+    "noGuidesAvailable": "Todavía no hay guías disponibles. ¡Vuelve pronto!"
+  },
+  "footer": {
+    "aboutTitle": "Invokyr Wiki",
+    "about": "Invokyr Wiki es un centro de guías independiente creado por fans que cubre personajes, mecánicas de invocación, objetos, builds y conocimientos esenciales del juego tanto para jugadores nuevos como veteranos.",
+    "quickLinks": "Enlaces rápidos",
+    "guides": "Guías",
+    "legal": "Legal",
+    "copyright": "2026 Invokyr Wiki. Sin afiliación con Ludogram ni Steam.",
+    "description": "Wiki del RPG de invocación fantástica con guías, personajes, objetos y mecánicas.",
+    "playGame": "Juega a Invokyr en Steam",
+    "officialDiscord": "Discord oficial",
+    "officialYoutube": "YouTube oficial",
+    "vvBuilder": "Centro comunitario de Invokyr",
+    "beginnerGuide": "Guía para principiantes",
+    "privacyPolicy": "Política de privacidad",
+    "termsOfService": "Términos del servicio",
+    "mechanicsGuides": "Guías de mecánicas",
+    "multiplayerGuides": "Guías de multijugador",
+    "releaseInfo": "Lanzamiento y actualizaciones"
+  }
+}
