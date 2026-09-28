@@ -1,0 +1,131 @@
+export const metadata = {
+  title: "Guía de push to talk de Invokyr: arregla los controles del chat de voz y el audio en estado de muerte",
+  description: "¿El push to talk de Invokyr no funciona? Aprende a asignar la tecla del micrófono, ajustar el audio y solucionar el fallo de voz en estado de muerte reportado por los jugadores.",
+  category: "controls",
+  date: "2026-09-28",
+}
+
+## Por qué el push to talk de Invokyr merece un hueco en tus atajos
+
+Si alguna vez has visto a un compañero caminar directo hacia el peligro mientras tu micrófono permanecía en silencio, ya sabes por qué vale la pena configurar bien el push to talk de Invokyr. El chat de voz es la forma más rápida de compartir información en un juego cooperativo, y una asignación fiable del push to talk de Invokyr mantiene tu canal limpio sin dejar de permitirte avisar del peligro en el momento en que aparece. Si lo configuras mal, o transmites cada sonido de tu habitación o no dices absolutamente nada.
+
+La diferencia entre una partida limpia y una derrota total suele medirse en segundos. Escribir es demasiado lento cuando algo te persigue, y un micrófono abierto capta teclados, ventiladores, música y a cualquiera que esté en casa. El push to talk resuelve ambos problemas a la vez: tu voz solo se transmite mientras mantienes pulsada una tecla, así que tu equipo escucha avisos útiles en lugar de ruido de fondo.
+
+Antes de tocar un solo ajuste, conviene saber qué modo de voz encaja realmente con tu configuración.
+
+| Modo de voz | Cómo funciona | Ideal para | Principal desventaja |
+|---|---|---|---|
+| Push to talk | Transmite solo mientras se mantiene pulsada una tecla asignada | Salas públicas, habitaciones ruidosas, espacios compartidos | Necesita una tecla cómoda y sin conflictos |
+| Micrófono abierto | El micrófono está activo toda la sesión | Grupos privados en habitaciones silenciosas | Ruido de fondo constante y eco |
+| Activación por voz | Envía audio por encima de un umbral de volumen | Jugadores con las manos siempre ocupadas | Ajuste del umbral, activaciones accidentales |
+| Chat de voz desactivado | Sin transmisión alguna | Práctica en solitario o pruebas | Cero coordinación con los compañeros |
+
+## Cómo configurar el push to talk de Invokyr paso a paso
+
+Las etiquetas de los menús pueden cambiar entre parches, así que trata la tabla siguiente como un mapa y no como un guion. El flujo general —abrir los ajustes, encontrar las opciones de voz, cambiar el modo de entrada y asignar una tecla— se ha mantenido consistente en la mayoría de los juegos multijugador construidos sobre el mismo sistema de voz.
+
+| # | Paso | Dónde buscar | Qué confirmar |
+|---|---|---|---|
+| 1 | Abre el menú de ajustes | Menú principal o menú de pausa | Estás editando el perfil correcto |
+| 2 | Encuentra la pestaña de voz o audio | Una pestaña llamada Audio, Voz o Sonido | El chat de voz está activado, no desactivado |
+| 3 | Cambia el modo de entrada | Entrada de voz o modo de transmisión | Configurado en Push to Talk, no en Micrófono abierto |
+| 4 | Asigna tu tecla | Menú de controles o atajos | No aparece ninguna advertencia de conflicto junto a ella |
+| 5 | Elige el micrófono correcto | Desplegable de dispositivo de entrada | El micrófono de tus auriculares, no una webcam o un monitor |
+| 6 | Prueba el nivel | Prueba de micrófono o medidor de actividad de voz | El medidor se mueve solo mientras mantienes pulsada la tecla |
+| 7 | Guarda y reinicia | Botón Aplicar o Confirmar | El ajuste se mantiene tras un reinicio completo |
+
+Algunos hábitos hacen que este proceso sea mucho más fluido:
+
+- **Prueba primero en una sala privada.** No querrás que tu primera transmisión sea un chirrido de retroalimentación en una partida llena.
+- **Habla con normalidad durante la prueba.** Susurrar al micrófono no te dice nada sobre cómo sonarás cuando estés entrando en pánico.
+- **Reinicia después de asignar.** Algunos sistemas de voz solo registran una tecla nueva después de que el juego recargue su capa de entrada.
+- **Vuelve a comprobar tras cada parche.** Las actualizaciones a veces restablecen los ajustes de audio a los valores predeterminados.
+
+## El fallo del estado de muerte: push to talk de Invokyr cuando estás caído
+
+Aquí es donde los reportes de la comunidad se vuelven interesantes. En el foro de discusión de Steam del juego, un jugador [reportó que el push to talk dejó de funcionar mientras su personaje estaba muerto](https://steamcommunity.com/app/3883570/discussions/0/569288789836617801/), y señaló que también fallaba dentro de la sala del juego. Un segundo jugador reactivó el hilo semanas después, lo que sugiere que el problema no fue un simple caso aislado en aquel momento. Eso es experiencia de jugadores, no una declaración oficial, y es muy posible que el comportamiento haya cambiado desde entonces.
+
+Hay dos explicaciones plausibles. La primera es un fallo directo: el sistema de voz pierde su asignación cuando el estado del jugador cambia de vivo a muerto y nunca la reinicializa. La segunda es un diseño intencionado. Bastantes juegos cooperativos silencian deliberadamente a los jugadores muertos para que no puedan filtrar información en directo a los compañeros que siguen en pie. Si ese es el caso aquí, ninguna reasignación hará que tu micrófono vuelva hasta que reaparezcas.
+
+| Situación | Qué reportan los jugadores | Explicación probable | Qué probar |
+|---|---|---|---|
+| Muerto y esperando a reaparecer | La tecla del micro no produce nada | Silencio intencionado o un fallo basado en el estado | Espera a reaparecer y vuelve a probar |
+| Muerto dentro de la sala del juego | El chat de voz sigue en silencio | Puede que el lobby no reinicialice la voz | Sal del lobby y vuelve a entrar |
+| Vivo durante una partida | Funciona como se espera | No hay ningún problema | No se requiere nada |
+| En espectador tras morir | Inconsistente entre sesiones | La voz está ligada al estado de vivo | Reasigna la tecla y prueba en la siguiente ronda |
+
+Si quieres confirmar si el comportamiento es universal, pregúntale directamente a tus compañeros. Un rápido "¿me oís ahora?" estando vivo, y luego otra vez estando caído, te dice más en treinta segundos que una hora de conjeturas.
+
+## Lista de comprobación cuando falla el push to talk de Invokyr
+
+La mayoría de los problemas de voz no son fallos del juego en absoluto. Vienen del sistema operativo, de los auriculares o de un segundo programa que se pelea por el mismo dispositivo. Repasa esta lista antes de asumir que el juego tiene la culpa.
+
+| Síntoma | Causa probable | Solución |
+|---|---|---|
+| Sin transmisión alguna | Dispositivo de entrada incorrecto seleccionado | Vuelve a seleccionar tus auriculares tanto en el juego como en los ajustes de sonido de Windows |
+| Funciona en los menús, falla en partida | Conflicto de teclas o interferencia de superposiciones | Reasigna la tecla; desactiva las superposiciones temporalmente |
+| Los compañeros oyen eco | El altavoz se filtra en un micrófono abierto | Cambia a auriculares y baja el volumen de los altavoces |
+| La tecla deja de funcionar tras alt-tab | La ventana pierde el foco | Ejecuta en modo ventana sin bordes o pantalla completa |
+| El audio suena con retraso o robótico | Latencia de auriculares Bluetooth | Cambia a una conexión por cable o inalámbrica de 2,4 GHz |
+| El micro suena demasiado bajo | Ganancia de entrada baja | Sube el volumen de entrada, activa el refuerzo de micro solo si es necesario |
+| Solo algunos compañeros te oyen | Sus ajustes de salida, no los tuyos | Pídeles que revisen su volumen de chat de voz |
+
+Una solución infravalorada: revisa los ajustes de privacidad del micrófono de tu sistema operativo. Si el juego carece de permiso para acceder al micrófono a nivel del sistema, ninguna opción dentro del juego ayudará, y el síntoma se ve exactamente igual que una tecla de push to talk rota.
+
+## Elegir la mejor tecla y los mejores ajustes de audio para el push to talk de Invokyr
+
+La elección de la tecla importa más de lo que la mayoría de los jugadores espera. Necesitas algo que puedas mantener pulsado varios segundos sin que se te acalore la mano ni se interrumpa el movimiento.
+
+| Opción de tecla | Pros | Contras | Veredicto |
+|---|---|---|---|
+| Botón lateral del ratón | Alcance con el pulgar, sin perder movimiento | El software del ratón puede tragarse la entrada | La mejor opción en general |
+| Alt izquierdo o Shift izquierdo | Fácil alcance, natural para la mayoría de manos | Puede chocar con los toggles de esprintar o caminar | Buena si no está asignada en otro sitio |
+| V, B o N | Cerca del pulgar, fuera del camino | A menudo entra en conflicto con inventario o melé | Revisa primero tus atajos |
+| Bloq Mayús o T | Rara vez se usan en la mayoría de juegos | Alcance incómodo, activa Bloq Mayús | Alternativa aceptable |
+| Clic de la rueda del ratón | Respuesta instantánea | Activaciones accidentales al hacer scroll | Úsala con precaución |
+
+Los ajustes de audio merecen la misma atención que tu atajo.
+
+| Ajuste | Valor recomendado | Por qué importa |
+|---|---|---|
+| Dispositivo de entrada | El micrófono de tus auriculares | Evita que el dispositivo equivocado capture audio |
+| Volumen de entrada | Rango medio, con picos por debajo del máximo | Evita el clipping y la distorsión en avisos a gritos |
+| Refuerzo de micrófono | Desactivado salvo que tu micro sea realmente bajo | Amplificar una señal ruidosa también amplifica el ruido |
+| Supresión de ruido | Activada, si el juego la ofrece | Filtra ventiladores, teclados y zumbidos de la habitación |
+| Salida del chat de voz | Cómoda pero audible | Los avisos que no puedes oír no sirven de nada |
+
+Si el software de tu teclado o ratón admite perfiles por aplicación, crea uno solo para Invokyr. Así tu asignación de push to talk nunca interferirá con los atajos en los que confías en todo lo demás.
+
+## Hábitos de comunicación en equipo que hacen que el chat de voz valga la pena
+
+Un micrófono que funciona es solo la mitad de la ecuación. La otra mitad es saber cuándo usarlo. Los avisos cortos y específicos ganan siempre a la narración larga.
+
+- **Nombra la ubicación, no solo el problema.** "Detrás de la puerta" no sirve de nada si hay seis puertas.
+- **Manténlo por debajo de tres segundos.** Las explicaciones largas pertenecen al lobby, no a una persecución.
+- **Confirma lo que has oído.** Un rápido "entendido" le dice a tu compañero que el mensaje ha llegado.
+- **Cállate cuando no pasa nada.** El silencio es lo que hace que valga la pena usar el push to talk.
+- **Nunca culpes por el micro.** El tilt se contagia más rápido por voz que por texto.
+
+Los jugadores que combinan un atajo cómodo con avisos disciplinados reportan sistemáticamente mejor coordinación que los grupos que simplemente dejan un micrófono abierto toda la sesión.
+
+## Preguntas frecuentes
+
+**¿Por qué no me funciona en absoluto el push to talk de Invokyr?**
+
+Empieza por el sistema operativo. Confirma que el juego tiene permiso para el micrófono y luego verifica que el dispositivo de entrada correcto está seleccionado tanto en Windows como en el menú de audio del juego. Si tu medidor se mueve durante una prueba de micrófono pero tus compañeros siguen sin oírte, el problema está en su lado de salida, no en tu entrada.
+
+**¿Se supone que el push to talk de Invokyr deja de funcionar cuando mueres?**
+
+Los reportes de la comunidad sugieren que la transmisión de voz se detiene estando muerto y a veces dentro de la sala del juego, pero no hay una explicación oficial confirmada. Puede ser un fallo relacionado con el estado, o puede ser deliberado para evitar que los jugadores muertos transmitan información en directo. Pruébalo con un amigo en una sala privada para ver cómo se comporta en tu versión actual.
+
+**¿Puedo usar un mando para el push to talk de Invokyr?**
+
+Depende de si el juego expone el chat de voz como una acción asignable al mando. Si lo hace, asígnalo a un botón que tu pulgar pueda mantener pulsado sin soltar el stick de movimiento —normalmente un botón de hombro o una palanca trasera. Si no, mantén un teclado a mano solo para la voz.
+
+**¿Funciona el push to talk de Invokyr en el lobby o en la sala del juego?**
+
+La experiencia de los jugadores sugiere que puede ser poco fiable ahí, y por eso muchos grupos hacen sus pruebas de micro antes de que empiece la partida en lugar de en el lobby. Si tu tecla funciona durante una partida pero no en la sala del juego, sal y vuelve a entrar en la sala y prueba de nuevo.
+
+**¿Con qué frecuencia debería revisar mis ajustes de push to talk de Invokyr?**
+
+Después de cada actualización importante. Los parches a veces restablecen las preferencias de audio, y una sola asignación restablecida puede silenciar toda una sesión. Dedica treinta segundos en una sala privada antes de tu primera partida de la noche y nunca te pillarán sin voz.

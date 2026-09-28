@@ -1,0 +1,141 @@
+export const metadata = {
+  title: "¿El micrófono de Invokyr no funciona? Cómo arreglar la entrada de voz para el final de la sala final",
+  description: "¿El micrófono de Invokyr no funciona? Aprende a activar la entrada de voz en el juego, verificar tu micrófono y desencadenar el final de la sala final diciendo el nombre del juego.",
+  category: "controls",
+  date: "2026-09-28",
+}
+
+## Por qué los errores de micrófono de Invokyr bloquean el final de la demo
+
+Llegaste a la última sala, leíste la instrucción del libro, dijiste el nombre del juego en voz alta... y no pasó nada. Si te suena familiar, tu problema de **micrófono de Invokyr no funciona** probablemente no sea una falla de hardware en absoluto. La secuencia final combina dos condiciones que muchos jugadores tratan como una sola: el objeto requerido debe estar dentro de la sala y el juego debe tener permiso para escuchar.
+
+Esa distinción importa porque un final que no se activa se siente como un bug. En la práctica, la mayoría de los reportes de **micrófono de Invokyr no funciona** se remontan a un ajuste que nunca se activó o a un paso del puzle que nunca se completó, no a un micrófono roto. Entender las condiciones reales detrás del final es la forma más rápida de terminar la demo sin reinstalar nada.
+
+La secuencia es corta: llega a la sala final, lleva contigo el juego de mesa, activa la entrada de voz y di "Invokyr".
+
+| Requisito | Qué hacer | Por qué importa |
+| --- | --- | --- |
+| Acceso a la sala final | Llega al área final de la demo | La interacción del final solo existe allí |
+| Juego de mesa | Llévalo dentro de la sala | Los reportes de jugadores dicen que el desarrollador confirmó que es obligatorio |
+| Entrada de voz | Actívala en el juego antes de hablar | El activador por voz no se registrará de otro modo |
+| Frase final | Di "Invokyr" claramente | Esta es la frase vinculada a la secuencia |
+
+Reportes de la comunidad en un hilo de discusión de Steam describen la trampa exacta: un jugador llegó a la última sala, siguió la instrucción del libro y repitió el nombre del juego varias veces sin resultado. La aclaración que siguió fue que el juego de mesa debía llevarse a la sala final, y un segundo jugador añadió que la entrada de voz tenía que estar activada. Esa es toda la solución en una frase.
+
+## Hardware no es lo mismo que entrada de voz
+
+Un micrófono conectado demuestra que tu hardware funciona. No demuestra que Invokyr esté escuchando. Esta es la confusión más común detrás de una queja de "micrófono no funciona", y es la razón por la que tantos jugadores prueban su micrófono en otra aplicación, se escuchan bien y luego concluyen que el juego está roto.
+
+El juego necesita permiso para recibir entrada hablada. Ese permiso suele estar en un menú de ajustes, y puede permanecer desactivado aunque tu sistema operativo enrute audio sin problema a un micrófono perfectamente bueno. Revisa la función, no la etiqueta: los nombres de los menús cambian entre versiones.
+
+| Qué verificaste | Qué demuestra realmente | Qué hacer después |
+| --- | --- | --- |
+| El micrófono funciona en Discord o en una grabadora de voz | El hardware y la entrada del sistema están bien | Abre la opción de voz en el juego y actívala |
+| El micrófono está seleccionado en Windows o macOS | El enrutamiento a nivel del sistema es correcto | Confirma que el juego usa ese mismo dispositivo |
+| Un amigo terminó el final con un micrófono | El juego admite activadores por voz | Compara sus ajustes activados, no su equipo |
+| Los auriculares están conectados y sin silenciar | Nada sobre el estado del juego | Verifica la opción dentro del juego antes de reintentar |
+
+Si quieres una referencia fiable para solucionar problemas de micrófono fuera del juego, [los recursos de soporte oficiales de Steam](https://help.steampowered.com/en/) cubren la detección de dispositivos y la configuración de voz para jugadores en Windows, macOS y Linux.
+
+## Síntoma por síntoma: solución de problemas de la entrada de voz de Invokyr
+
+Trabaja con la tabla a continuación en orden. Cambiar una variable a la vez es lo que hace que un reintento sea informativo: si cambias tres ajustes y vuelves a gritar la frase, no aprendes nada sobre qué solución funcionó.
+
+| Síntoma | Causa más probable | Solución práctica |
+| --- | --- | --- |
+| Ninguna respuesta a "Invokyr" | Entrada de voz desactivada en el juego | Activa el ajuste y luego reintenta desde la sala final |
+| El micrófono funciona en otros lugares pero no en Invokyr | Dispositivo de entrada incorrecto u opción del juego desactivada | Coincide con el dispositivo seleccionado y vuelve a activar la entrada de voz |
+| Otro jugador lo terminó, tú no puedes | La configuración de voz local es diferente | Compara las opciones activadas en lugar del hardware |
+| La frase se registra de forma inconsistente | Audio poco claro, ruido de fondo o momento inadecuado | Habla a un ritmo normal desde dentro de la sala |
+| Sala alcanzada, final aún no disponible | Condición del juego de mesa incompleta | Vuelve y trae el juego de mesa |
+
+Dos de esas filas son técnicas y tres son sobre el progreso. Esa proporción es una buena prueba de realidad: la mayoría de los jugadores que creen que su micrófono está muerto en realidad se saltaron un paso en la sala misma.
+
+Una lista corta de comprobaciones rápidas:
+
+- Confirma que la entrada de voz está activada en los ajustes del juego.
+- Confirma que el micrófono deseado es el que está seleccionado.
+- Confirma que el juego de mesa está físicamente dentro de la sala final.
+- Habla con claridad a volumen normal en lugar de gritar.
+- Espera un momento antes de repetir la frase.
+
+## Solución paso a paso cuando el micrófono de Invokyr no funciona
+
+Sigue este orden cada vez que el final se niegue a activarse. Mantiene el progreso y la solución de problemas separados para que siempre sepas cuál falló.
+
+1. **Llega al área final.** Avanza por la demo hasta que llegues a la última sala. Haz una pausa allí y confirma que esta es el área final prevista antes de hablar.
+2. **Localiza el juego de mesa.** Si no lo tienes contigo, vuelve sobre tu ruta. Llegar a la sala por sí solo no es la solución.
+3. **Llévalo dentro.** Carga o mueve el juego de mesa hacia la sala final y confirma que está realmente en la sala, no en la puerta o en un espacio contiguo.
+4. **Activa la entrada de voz.** Abre los ajustes del juego y verifica que la opción esté activa. Un micrófono conectado con la entrada de voz desactivada nunca registrará la frase.
+5. **Di el nombre del juego.** Desde dentro de la sala, di "Invokyr" claramente y dale un momento al juego para responder.
+6. **Reintenta deliberadamente.** Si no pasa nada, vuelve a revisar la posición del juego de mesa y el ajuste de voz antes de repetir la frase.
+
+| Paso | Pregunta de verificación | Si la respuesta es no |
+| --- | --- | --- |
+| 1 | ¿Estoy dentro de la sala final? | Sigue avanzando hasta que encuentres el área final |
+| 2 | ¿Tengo el juego de mesa? | Vuelve sobre la ruta y recógelo |
+| 3 | ¿Está el juego de mesa dentro de la sala? | Muévelo más adentro |
+| 4 | ¿Está activada la entrada de voz? | Cambia el ajuste antes de hablar |
+| 5 | ¿Dije "Invokyr" desde dentro de la sala? | Repite después de revisar los pasos 1–4 |
+
+El orden fiable es **sala primero, juego de mesa segundo, entrada de voz tercero, frase al final**. Esa secuencia evita que un intento de voz prematuro se confunda con un final fallido.
+
+## Errores comunes que hacen que el micrófono parezca roto
+
+La frase es solo una pieza del puzle. Los jugadores que la tratan como la solución completa tienden a repetir el bucle: hablan, no oyen nada, hablan más fuerte, concluyen que el micrófono está defectuoso. Mientras tanto, el verdadero bloqueo permanece intacto en un rincón de la sala.
+
+Otros errores frecuentes:
+
+- Dejar atrás el juego de mesa porque la sala final ya está visible.
+- Asumir que una prueba de micrófono a nivel del sistema es lo mismo que activar la entrada de voz en el juego.
+- Repetir la frase muchas veces seguidas en lugar de verificar la configuración entre intentos.
+- Decir la frase antes de entrar en la sala, cuando la interacción puede que aún no esté activa.
+- Añadir pasos inventados —órdenes de objetos, posiciones específicas, indicaciones de botones— que la guía confirmada nunca menciona.
+
+| Estado del intento | Interpretación probable | Respuesta recomendada |
+| --- | --- | --- |
+| Última sala alcanzada, juego de mesa ausente | Condición del objeto incompleta | Vuelve por el juego de mesa |
+| Juego de mesa presente, entrada de voz desactivada | El juego no puede recibir el comando | Activa la entrada de voz |
+| Entrada de voz activada, la frase falla | Falta otra condición de configuración | Vuelve a revisar la ubicación del juego de mesa |
+| Frase dicha fuera de la sala | La interacción puede que no esté activa | Espera hasta estar dentro |
+| Todas las condiciones cumplidas | La configuración está completa | Di "Invokyr" claramente |
+
+Evita acumular acciones extra sobre los requisitos conocidos. El límite confirmado es estrecho: la sala final, el juego de mesa, la entrada de voz y la frase. Cualquier cosa más allá de eso es especulación hasta que el propio juego la presente.
+
+## Lista de verificación de la sala final antes de reintentar
+
+Ejecuta esta lista antes de reiniciar la demo o asumir que el final está roto.
+
+- Llega a la sala final de la demo.
+- Localiza y carga el juego de mesa.
+- Lleva el juego de mesa a la sala final.
+- Activa la entrada de voz antes del intento final.
+- Di "Invokyr" claramente desde dentro de la sala.
+
+| Comprobación final | Condición confirmada |
+| --- | --- |
+| Ubicación | Estás dentro de la sala final |
+| Objeto requerido | El juego de mesa está dentro de la sala |
+| Ajuste de entrada | La entrada de voz está activa |
+| Comando | Se dice "Invokyr" desde la sala |
+| Método de reintento | Revisa la configuración antes de repetir la frase |
+
+Si has cumplido las cinco filas y el final aún no se activa, el siguiente paso más productivo es verificar de nuevo el ajuste de voz en lugar de cambiar tu hardware. La experiencia de los jugadores apunta de forma consistente a la configuración, no al equipo.
+
+## Preguntas frecuentes
+
+**¿Por qué decir "Invokyr" no termina la secuencia de la sala final?**
+
+La frase es solo parte del final. El juego de mesa debe estar dentro de la sala final y la entrada de voz debe estar activada antes de que hables. Si cualquiera de las dos condiciones no se cumple, el activador no se disparará, que es exactamente lo que hace que una situación de **micrófono de Invokyr no funciona** sea tan confusa al principio.
+
+**¿Necesito llevar el juego de mesa a la sala final?**
+
+Sí. Reportes de la comunidad en un hilo de discusión de Steam dicen que el desarrollador confirmó que llevar el juego de mesa a la sala final es la solución requerida para el problema del final reportado. Simplemente llegar al último área no es suficiente.
+
+**¿Invokyr requiere un micrófono para terminar la demo?**
+
+La experiencia de los jugadores indica que la entrada de voz debe estar activa para el final hablado. Un micrófono conectado por sí solo puede no ser suficiente si la opción de voz en el juego está desactivada, así que revisa primero el ajuste en lugar del hardware.
+
+**¿Se puede completar la demo de Invokyr?**
+
+Sí. Los pasos confirmados de la sala final apuntan a una secuencia de finalización: llega a la sala final, lleva contigo el juego de mesa, activa la entrada de voz y di "Invokyr" desde dentro de la configuración completada.

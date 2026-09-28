@@ -1,0 +1,99 @@
+export const metadata = {
+  title: "Controles de la demo de Invokyr: guía de teclas, reasignación y ajustes",
+  description: "Una guía práctica sobre los controles de la demo de Invokyr: dónde encontrar las teclas, cómo reasignarlas, compatibilidad con mando y soluciones a problemas de entrada habituales.",
+  category: "controls",
+  date: "2026-09-28",
+}
+
+## Por qué los controles de la demo de Invokyr merecen un vistazo más de cerca
+
+Cargar una nueva demo debería ser lo fácil, pero los primeros minutos a menudo se convierten en una búsqueda de los **controles de la demo de Invokyr**. Si no puedes moverte, apuntar o abrir un menú, no puedes juzgar si vale la pena añadir el juego a la lista de deseados — y una demo existe precisamente para que tomes esa decisión rápido. Saber dónde están los **controles de la demo de Invokyr**, cómo reasignarlos y qué hacer cuando una entrada se niega a registrarse te evita una primera sesión frustrante y te permite evaluar de verdad la jugabilidad en lugar de pelearte con la interfaz.
+
+Hay una segunda razón para prestar atención. Las builds de demo son versiones comprimidas de un proyecto más grande, y esa compresión suele aparecer en la capa de controles. Algunas demos incluyen una suite completa de reasignación; otras te fijan a un esquema fijo mientras los desarrolladores siguen iterando sobre la disposición final. En cualquier caso, el esquema de controles es el primer sistema que tocas, y da forma a cada impresión que te llevas después. Si el movimiento se siente pegajoso o una acción está en una tecla que tu mano no alcanza cómodamente, culparás al juego — incluso cuando el problema real era una asignación predeterminada que podrías haber cambiado en treinta segundos.
+
+Una nota rápida sobre las fuentes: la documentación pública de la demo sigue siendo escasa, así que esta guía se centra en la estructura del menú, el flujo de reasignación y los pasos de solución de problemas que se aplican a la build, además de convenciones de entrada ampliamente usadas que puedes verificar en el juego. Trata cualquier lista de asignaciones concreta como un punto de partida, no como un evangelio — el menú de controles del juego siempre es la fuente autorizada.
+
+## Dónde encontrar los controles de la demo de Invokyr
+
+Antes de empezar a pulsar teclas al azar, conviene saber dónde está realmente la información. La mayoría de las demos esconden su lista de controles en uno de unos pocos lugares predecibles, y la fiabilidad de cada fuente varía mucho.
+
+| Fuente | Qué obtienes | Fiabilidad |
+| --- | --- | --- |
+| Ajustes del juego → Controles | Lista completa de asignaciones, opciones de reasignación, controles de sensibilidad | Máxima — coincide con tu build exacta |
+| Superposición del menú de pausa | Tarjeta de referencia rápida, a veces una imagen estática | Alta, pero a menudo incompleta |
+| Página de la tienda de Steam y centro de la comunidad | Lista de características, publicaciones de los desarrolladores, notas del parche | Buena para confirmaciones, débil en detalles |
+| Discord del desarrollador o sitio oficial | Notas del parche, hilos de problemas conocidos, fechas de hotfix | Buena, pero requiere rebuscar |
+| Informes de la comunidad en foros y Reddit | Soluciones del mundo real para bugs de entrada obstinados | Variable — útiles, pero verifica antes de confiar |
+
+El camino más rápido casi siempre es la pantalla de ajustes del juego. Ábrela antes de tu primera sesión real, no después. Leer la lista lleva menos de un minuto y te dice de inmediato si la demo admite reasignación completa o solo un cambio de preajuste. Si el menú muestra un icono de candado cerrado junto a una acción, esa asignación está fijada por los desarrolladores y ninguna cantidad de cambios la moverá.
+
+Un consejo más: consulta la [página oficial de Invokyr en Steam](https://store.steampowered.com/app/4704030/) para ver las notas del parche. Cuando una demo recibe un hotfix, las correcciones de controles suelen ser lo primero que se menciona, porque son baratas de publicar y generan los comentarios más ruidosos.
+
+## Cómo reasignar y personalizar los controles de la demo de Invokyr
+
+Reasignar suele ser una tarea de cuatro pasos, y el orden importa porque algunos menús aplican los cambios al instante mientras que otros esperan una confirmación.
+
+1. **Abre primero el menú de ajustes desde el menú principal.** Cambiar las asignaciones a mitad de sesión a veces no se guarda si la demo se cierra inesperadamente o sales de golpe.
+2. **Selecciona el perfil del dispositivo de entrada.** Teclado/ratón y mando se guardan como perfiles separados en la mayoría de builds modernas, así que reasignar uno no afectará al otro.
+3. **Elige la acción y luego pulsa la nueva tecla.** Si la tecla ya está asignada, espera un aviso de conflicto — resuélvelo antes de continuar.
+4. **Aplica y luego vuelve por completo al menú principal.** Esto fuerza una escritura en el archivo de configuración. Iniciar directamente la partida puede saltarse el paso de guardado.
+5. **Prueba en una zona de baja presión.** Camina, gira, interactúa y abre cada menú una vez antes de comprometerte con una sesión larga.
+
+Los ajustes que deberías afinar junto con tus asignaciones:
+
+| Ajuste | Qué cambia | Punto de partida recomendado |
+| --- | --- | --- |
+| Sensibilidad del ratón/stick derecho | Velocidad de la cámara | Empieza bajo, sube en pasos pequeños |
+| Invertir eje Y | Dirección vertical de la cámara | Preferencia personal — configúralo ahora, no después |
+| Asistencia de apuntado | Cuánto te ayuda el juego a seguir el objetivo | Activada para mando, desactivada para ratón |
+| Vibración / hápticos | Intensidad de la respuesta del mando | Media; bájala a baja si distrae |
+| Mantener vs. alternar | Si un botón debe mantenerse pulsado o alternarse | Alternar por accesibilidad, mantener por velocidad |
+| Zona muerta | Umbral de entrada del stick | Súbela un poco si tienes deriva |
+
+Los informes de la comunidad sugieren que la mayoría de las quejas de "los controles se sienten horribles" en las demos se remontan a la sensibilidad y la zona muerta, no a la disposición de las asignaciones en sí. Antes de rehacer todo el esquema, dedica dos minutos a esos dos controles deslizantes.
+
+## Comparación de compatibilidad con teclado, mando y Steam Deck
+
+El método de entrada cambia cómo se siente una demo más que casi cualquier otra variable. Así suelen diferir las tres configuraciones principales, y qué comprobar en cada una.
+
+| Plataforma | Fortalezas típicas | Puntos débiles típicos | Qué verificar primero |
+| --- | --- | --- | --- |
+| Teclado y ratón | Control preciso de la cámara, navegación rápida por menús | Asignaciones predeterminadas incómodas, sin movimiento analógico | Curva de sensibilidad y ubicación de esprintar/interactuar |
+| Mando de Xbox / PlayStation | Cómodo para sesiones largas, movimiento analógico | Puede requerir asistencia de apuntado, problemas de zona muerta | Si el juego detecta automáticamente tu mando |
+| Steam Deck / portátil | Portabilidad, capa de mapeo de mando integrada | Texto pequeño en menús, coste de batería de los hápticos | Disponibilidad de diseños de la comunidad en Steam Input |
+| Mandos genéricos / de terceros | Baratos y a menudo suficientes | Los indicadores de botones pueden no coincidir con la disposición física | Iconos de indicaciones vs. botones reales |
+
+Si tu mando no se detecta, la solución suele estar fuera del juego. La configuración de mando de Steam puede anular o bloquear un mando antes de que la demo llegue a verlo. Desenchufar y volver a enchufar, pasar de inalámbrico a cableado o activar/desactivar Steam Input para el título resuelve la mayoría de los fallos de detección. En portátiles, descargar un diseño de mando de la comunidad suele ser más rápido que crear el tuyo desde cero.
+
+## Solucionar problemas comunes de control en la demo
+
+La mayoría de los problemas de entrada caen en unas pocas categorías. Repasa la tabla siguiente antes de asumir que la demo está rota.
+
+| Síntoma | Causa probable | Solución |
+| --- | --- | --- |
+| Las teclas no hacen nada en el juego | La ventana perdió el foco, o una superposición está capturando la entrada | Haz clic en la ventana del juego, cierra superposiciones, vuelve con alt-tab |
+| Las asignaciones se restablecen en cada inicio | El archivo de configuración no se puede escribir, o conflicto de sincronización en la nube | Ejecuta como administrador, desactiva temporalmente la sincronización en la nube |
+| El movimiento del ratón se entrecorta | Ratón con alta tasa de sondeo, interferencia de apps en segundo plano | Baja la tasa de sondeo, cierra software de captura |
+| El mando duplica entradas | Steam Input y compatibilidad nativa activos a la vez | Desactiva uno de los dos |
+| Las acciones se activan dos veces | Conflicto entre ajustes de alternar y mantener | Cambia la acción a un solo modo |
+| El apuntado se siente lento | La asistencia de apuntado lucha contra tu entrada | Baja o desactiva la asistencia |
+
+Algunos de estos merecen atención adicional. La duplicación de entradas es la queja de mando más común en las demos, y casi siempre se debe a dos capas de entrada ejecutándose a la vez — la compatibilidad nativa del juego y la capa de traducción de Steam. Desactivar una lo arregla de inmediato. El problema de restablecimiento de asignaciones es más raro pero más molesto; si tus ajustes desaparecen en cada inicio, probablemente la demo no pueda escribir en su carpeta de configuración, lo que suele solucionarse con un cambio de permisos.
+
+Los ajustes de accesibilidad merecen un repaso aunque no los necesites. Los subtítulos más grandes, las conversiones de mantener a alternar, la reducción del movimiento de cámara y los modos para daltonismo aparecen en más demos cada año, y activarlos puede revelar opciones que hacen las sesiones largas mucho más cómodas.
+
+## Preguntas frecuentes
+
+**¿Dónde encuentro los controles de la demo de Invokyr en el menú?**
+Abre la pantalla de ajustes desde el menú principal y busca una pestaña de Controles o Entrada. Ese panel contiene la lista completa de asignaciones, los controles deslizantes de sensibilidad y cualquier opción de reasignación que admita la build. Consúltalo antes de tu primera sesión, no después.
+
+**¿Puedo reasignar por completo los controles de la demo de Invokyr?**
+Depende de la build. Muchas demos permiten reasignación completa, mientras que otras bloquean ciertas acciones a teclas fijas. Si una asignación muestra un icono de candado o se niega a aceptar una nueva entrada, está fijada por los desarrolladores y no se puede cambiar.
+
+**¿Por qué mi mando no funciona con la demo?**
+Las causas más comunes son conflictos con Steam Input, una batería agotada o una conexión inalámbrica que se perdió durante el inicio. Prueba primero una conexión por cable y luego comprueba si la configuración de mando de Steam está anulando la compatibilidad nativa del juego.
+
+**¿Mis ajustes de control se transfieren al juego completo?**
+Normalmente no. Las configuraciones de la demo se guardan por separado de la versión completa, así que espera tener que rehacer tus asignaciones después del lanzamiento. Haz una captura de pantalla de tu diseño antes de que termine la demo — lleva diez segundos y ahorra muchas conjeturas después.
+
+Sentirse cómodo con el esquema de controles es la diferencia entre descartar una demo en cinco minutos y descubrir algo que de verdad quieres jugar. Dedica tiempo por adelantado, ajusta la sensibilidad, resuelve cualquier conflicto de entrada, y el resto de la demo te dirá lo que realmente viniste a averiguar.

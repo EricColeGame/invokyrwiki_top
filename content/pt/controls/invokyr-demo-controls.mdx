@@ -1,0 +1,99 @@
+export const metadata = {
+  title: "Controles da Demo de Invokyr: Teclas, Remapeamento e Guia de Configurações",
+  description: "Um guia prático sobre os controles da demo de Invokyr: onde encontrar as teclas, como remapeá-las, suporte a controle e correções para problemas comuns de entrada.",
+  category: "controls",
+  date: "2026-09-28",
+}
+
+## Por Que os Controles da Demo de Invokyr Merecem uma Análise Mais Atenta
+
+Entrar em uma nova demo deveria ser a parte fácil, mas os primeiros minutos muitas vezes se transformam em uma caçada pelos **controles da demo de Invokyr**. Se você não consegue se mover, mirar ou abrir um menu, não consegue julgar se o jogo vale a pena adicionar à lista de desejos — e uma demo existe justamente para que você possa tomar essa decisão rapidamente. Saber onde os **controles da demo de Invokyr** ficam, como remapeá-los e o que fazer quando uma entrada se recusa a registrar evita que sua primeira sessão seja frustrante e permite que você realmente avalie a jogabilidade em vez de brigar com a interface.
+
+Há um segundo motivo para se importar. Builds de demo são versões comprimidas de um projeto maior, e essa compressão frequentemente aparece na camada de controles. Algumas demos vêm com um conjunto completo de remapeamento; outras travam você em um esquema fixo enquanto os desenvolvedores continuam iterando sobre o layout final. De qualquer forma, o esquema de controle é o primeiro sistema que você toca, e ele molda todas as impressões que você forma depois. Se o movimento parece travado ou uma ação fica em uma tecla que sua mão não alcança confortavelmente, você vai culpar o jogo — mesmo quando o problema real era uma vinculação padrão que você poderia ter mudado em trinta segundos.
+
+Uma observação rápida sobre fontes: a documentação pública da demo ainda é escassa, então este guia foca na estrutura de menus, no fluxo de remapeamento e nas etapas de solução de problemas que se aplicam à build, além de convenções de entrada amplamente usadas que você pode verificar no jogo. Trate qualquer lista específica de vinculações como ponto de partida, não como verdade absoluta — o menu de controles do jogo é sempre a fonte autoritativa.
+
+## Onde Encontrar os Controles da Demo de Invokyr
+
+Antes de começar a apertar teclas aleatoriamente, saiba onde a informação realmente está. A maioria das demos esconde sua lista de controles em um dos poucos lugares previsíveis, e a confiabilidade de cada fonte varia bastante.
+
+| Fonte | O que você obtém | Confiabilidade |
+| --- | --- | --- |
+| Configurações do jogo → Controles | Lista completa de vinculações, opções de remapeamento, controles de sensibilidade | Mais alta — corresponde exatamente à sua build |
+| Sobreposição do menu de pausa | Cartão de referência rápida, às vezes uma imagem estática | Alta, mas frequentemente incompleta |
+| Página da Steam e hub da comunidade | Lista de recursos, postagens dos desenvolvedores, notas de patch | Boa para confirmações, fraca em detalhes |
+| Discord dos desenvolvedores ou site oficial | Notas de patch, tópicos de problemas conhecidos, prazos de hotfix | Bom, mas exige garimpar |
+| Relatos da comunidade em fóruns e Reddit | Correções do mundo real para bugs de entrada persistentes | Variável — útil, mas verifique antes de confiar |
+
+O caminho mais rápido é quase sempre a tela de configurações do jogo. Abra-a antes da sua primeira sessão de verdade, não depois. Ler a lista leva menos de um minuto e já diz imediatamente se a demo oferece remapeamento completo ou apenas troca de predefinições. Se o menu mostrar um ícone de cadeado ao lado de uma ação, essa vinculação é fixa pelos desenvolvedores e nenhuma quantidade de ajustes vai movê-la.
+
+Mais uma dica: confira a [página oficial de Invokyr na Steam](https://store.steampowered.com/app/4704030/) para ver as notas de patch. Quando uma demo recebe um hotfix, correções de controle costumam ser a primeira coisa mencionada, porque são baratas de lançar e geram o feedback mais ruidoso.
+
+## Como Remapear e Personalizar os Controles da Demo de Invokyr
+
+O remapeamento geralmente é um trabalho de quatro etapas, e a ordem importa porque alguns menus aplicam mudanças instantaneamente enquanto outros aguardam um prompt de confirmação.
+
+1. **Abra o menu de configurações a partir do menu principal primeiro.** Alterar vinculações no meio da sessão às vezes não é salvo se a demo travar ou se você sair abruptamente.
+2. **Selecione o perfil do dispositivo de entrada.** Teclado/mouse e controle são armazenados como perfis separados na maioria das builds modernas, então remapear um não afeta o outro.
+3. **Escolha a ação e depois pressione a nova tecla.** Se a tecla já estiver atribuída, espere um aviso de conflito — resolva-o antes de continuar.
+4. **Aplique e depois volte totalmente ao menu principal.** Isso força a gravação no arquivo de configuração. Iniciar direto na jogabilidade pode pular a etapa de salvamento.
+5. **Teste em uma área de baixa pressão.** Ande, vire, interaja e abra todos os menus uma vez antes de se comprometer com uma sessão longa.
+
+As configurações que você deve ajustar junto com as vinculações:
+
+| Configuração | O que ela altera | Ponto de partida recomendado |
+| --- | --- | --- |
+| Sensibilidade do mouse/analógico direito | Velocidade da câmera | Comece baixo, aumente em pequenos passos |
+| Inverter eixo Y | Direção vertical da câmera | Preferência pessoal — defina agora, não depois |
+| Assistência de mira | Quanto o jogo ajuda você a rastrear | Ligada para controle, desligada para mouse |
+| Vibração / háptica | Intensidade do feedback do controle | Média; baixe para baixa se distrair |
+| Segurar vs. alternar | Se um botão deve ser segurado ou tocado | Alternar para acessibilidade, segurar para velocidade |
+| Zona morta | Limite de entrada do analógico | Aumente um pouco se houver deriva |
+
+Relatos da comunidade sugerem que a maioria das reclamações de que "os controles são horríveis" em demos remonta à sensibilidade e à zona morta, não ao layout de vinculações em si. Antes de reconstruir todo o esquema, dedique dois minutos a esses dois controles deslizantes.
+
+## Comparação de Suporte: Teclado, Controle e Steam Deck
+
+O método de entrada muda como uma demo é sentida mais do que quase qualquer outra variável. Veja como os três principais setups costumam diferir, e o que verificar em cada um.
+
+| Plataforma | Pontos fortes típicos | Pontos problemáticos típicos | O que verificar primeiro |
+| --- | --- | --- | --- |
+| Teclado e mouse | Controle de câmera preciso, navegação rápida em menus | Vinculações padrão apertadas, sem movimento analógico | Curva de sensibilidade e posição de correr/interagir |
+| Controle de Xbox / PlayStation | Confortável para sessões longas, movimento analógico | Assistência de mira pode ser necessária, problemas de zona morta | Se o jogo detecta seu controle automaticamente |
+| Steam Deck / portátil | Portátil, camada de mapeamento de controle integrada | Texto pequeno nos menus, custo de bateria da háptica | Disponibilidade de layout da comunidade no Steam Input |
+| Controles genéricos / de terceiros | Baratos e muitas vezes adequados | Prompts de botão podem não corresponder ao layout físico | Ícones dos prompts vs. botões reais |
+
+Se o seu controle não for detectado, a correção geralmente está fora do jogo. As configurações de controle da Steam podem substituir ou bloquear um controle antes mesmo que a demo o veja. Desconectar e reconectar, trocar de sem fio para com fio, ou alternar o Steam Input para o título resolve a maioria das falhas de detecção. Em portáteis, baixar um layout de controle da comunidade costuma ser mais rápido do que construir o seu do zero.
+
+## Corrigindo Problemas Comuns de Controle na Demo
+
+A maioria dos problemas de entrada se encaixa em um pequeno número de categorias. Percorra a tabela abaixo antes de assumir que a demo está quebrada.
+
+| Sintoma | Causa provável | Correção |
+| --- | --- | --- |
+| Teclas não fazem nada no jogo | Janela perdeu o foco, ou uma sobreposição está capturando a entrada | Clique na janela do jogo, feche sobreposições, volte com alt-tab |
+| Vinculações são redefinidas a cada inicialização | Arquivo de configuração não é gravável, ou conflito de sincronização na nuvem | Execute como administrador, desative temporariamente a sincronização na nuvem |
+| Mouse look engasga | Mouse com alta taxa de polling, interferência de apps em segundo plano | Reduza a taxa de polling, feche softwares de captura |
+| Controle com entrada dupla | Steam Input e suporte nativo ativos ao mesmo tempo | Desative um dos dois |
+| Ações disparam duas vezes | Conflito entre configurações de alternar e segurar | Mude a ação para um único modo |
+| Mira parece lenta | Assistência de mira brigando com sua entrada | Reduza ou desative a assistência |
+
+Alguns desses merecem atenção extra. A entrada dupla é a reclamação de controle mais comum em demos, e quase sempre é causada por duas camadas de entrada rodando ao mesmo tempo — o suporte nativo do jogo e a camada de tradução da Steam. Desligar uma delas corrige imediatamente. O problema de redefinição de vinculações é mais raro, mas mais irritante; se suas configurações desaparecem a cada inicialização, a demo provavelmente não consegue gravar na pasta de configuração, o que uma mudança de permissões geralmente resolve.
+
+As configurações de acessibilidade valem uma olhada mesmo que você não precise delas. Legendas maiores, conversões de segurar para alternar, tremor de câmera reduzido e modos para daltonismo aparecem em mais demos a cada ano, e ativá-las pode revelar opções que tornam sessões longas muito mais confortáveis.
+
+## Perguntas Frequentes
+
+**Onde encontro os controles da demo de Invokyr no menu?**
+Abra a tela de configurações a partir do menu principal e procure uma aba Controles ou Entrada. Esse painel contém a lista completa de vinculações, os controles deslizantes de sensibilidade e quaisquer opções de remapeamento que a build ofereça. Confira antes da sua primeira sessão, não depois.
+
+**Posso remapear completamente os controles da demo de Invokyr?**
+Isso depende da build. Muitas demos permitem remapeamento completo, enquanto outras travam certas ações em teclas fixas. Se uma vinculação mostrar um ícone de cadeado ou se recusar a aceitar uma nova entrada, ela é fixa pelos desenvolvedores e não pode ser alterada.
+
+**Por que meu controle não funciona com a demo?**
+As causas mais comuns são conflitos com o Steam Input, bateria descarregada ou uma conexão sem fio que caiu durante a inicialização. Tente primeiro uma conexão com fio, depois verifique se a configuração de controle da Steam está substituindo o suporte nativo do jogo.
+
+**Minhas configurações de controle são transferidas para o jogo completo?**
+Normalmente não. As configurações da demo são armazenadas separadamente das do lançamento completo, então espere refazer suas vinculações depois do lançamento. Tire um print do seu layout antes que a demo termine — leva dez segundos e economiza muita adivinhação depois.
+
+Ficar confortável com o esquema de controle é a diferença entre descartar uma demo em cinco minutos e descobrir algo que você realmente quer jogar. Dedique tempo no início, ajuste a sensibilidade, resolva quaisquer conflitos de entrada, e o resto da demo vai mostrar o que você realmente veio descobrir.

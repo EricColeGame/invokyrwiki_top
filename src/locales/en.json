@@ -9,7 +9,42 @@
   "nav": {
     "home": "Home",
     "menu": "Menu",
-    "toggleTheme": "Toggle theme"
+    "toggleTheme": "Toggle theme",
+    "guide": "Guide",
+    "mechanics": "Mechanics",
+    "multiplayer": "Multiplayer",
+    "controls": "Controls",
+    "release": "Release",
+    "platforms": "Platforms",
+    "community": "Community"
+  },
+  "guide": {
+    "overviewTitle": "Invokyr Guides",
+    "overviewDescription": "Step-by-step Invokyr guides covering the first run, how to win, riddles, walkthroughs, and beginner tips for the cursed board game."
+  },
+  "mechanics": {
+    "overviewTitle": "Invokyr Game Mechanics",
+    "overviewDescription": "Learn how Invokyr dice, monsters, enemies, riddles, the secret room, and the final escape actually work."
+  },
+  "multiplayer": {
+    "overviewTitle": "Invokyr Multiplayer & Co-op",
+    "overviewDescription": "Everything about Invokyr co-op: player count, 4-player runs, cross-platform support, and how to survive with friends."
+  },
+  "controls": {
+    "overviewTitle": "Invokyr Controls & Settings",
+    "overviewDescription": "Full Invokyr control schemes, demo controls, push-to-talk setup, and fixes for when your mic is not working."
+  },
+  "release": {
+    "overviewTitle": "Invokyr Release & Updates",
+    "overviewDescription": "Invokyr release date, Early Access status, demo details, the Steam page, and the latest patch notes."
+  },
+  "platforms": {
+    "overviewTitle": "Invokyr Platforms & Requirements",
+    "overviewDescription": "Which platforms run Invokyr, console and Switch status, Mac support, and the full system requirements."
+  },
+  "community": {
+    "overviewTitle": "Invokyr Community",
+    "overviewDescription": "Official Invokyr Discord, Reddit, and YouTube channels, plus where to find other players."
   },
   "home": {
     "meta": {
@@ -451,7 +486,6 @@
       "secondary": "Play on Steam"
     }
   },
-  "bosses": {},
   "shared": {
     "wikiNavigation": "Wiki Navigation",
     "activeCodes": "Active Codes",
@@ -482,10 +516,10 @@
     "officialYoutube": "Official YouTube",
     "vvBuilder": "Invokyr Community Hub",
     "beginnerGuide": "Beginner Guide",
-    "raceGuides": "Character Guides",
-    "bossGuides": "Boss Guides",
-    "buildGuide": "Build Guide",
     "privacyPolicy": "Privacy Policy",
-    "termsOfService": "Terms of Service"
+    "termsOfService": "Terms of Service",
+    "mechanicsGuides": "Mechanics Guides",
+    "multiplayerGuides": "Multiplayer Guides",
+    "releaseInfo": "Release & Updates"
   }
 }

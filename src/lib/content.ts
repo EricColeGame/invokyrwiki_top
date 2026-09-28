@@ -236,40 +236,67 @@ export interface NavGroup {
 }
 
 // 分组标题映射：slug → 人类可读标题（默认英文）
+// slug 与 NAVIGATION_CONFIG / content/<locale>/ 子目录一一对应。
 const GROUP_TITLES: Record<string, string> = {
-  bosses: "Bosses",
-  races: "Races",
-  maps: "Maps & Areas",
-  skills: "Skills",
-  codes: "Codes",
-  guide: "Getting Started",
-  "tier-list": "Tier Lists",
+  guide: "Guides",
+  mechanics: "Game Mechanics",
+  multiplayer: "Multiplayer",
+  controls: "Controls & Settings",
+  release: "Release & Updates",
+  platforms: "Platforms",
+  community: "Community",
 };
 
-// 日文分组标题映射
-const GROUP_TITLES_JA: Record<string, string> = {
-  bosses: "ボス",
-  races: "種族",
-  maps: "マップ & エリア",
-  skills: "スキル",
-  codes: "コード",
-  guide: "初心者ガイド",
-  "tier-list": "Tier List",
+// 西班牙语分组标题映射
+const GROUP_TITLES_ES: Record<string, string> = {
+  guide: "Guías",
+  mechanics: "Mecánicas",
+  multiplayer: "Multijugador",
+  controls: "Controles y ajustes",
+  release: "Lanzamiento y novedades",
+  platforms: "Plataformas",
+  community: "Comunidad",
+};
+
+// 葡萄牙语分组标题映射
+const GROUP_TITLES_PT: Record<string, string> = {
+  guide: "Guias",
+  mechanics: "Mecânicas",
+  multiplayer: "Multijogador",
+  controls: "Controles e configurações",
+  release: "Lançamento e atualizações",
+  platforms: "Plataformas",
+  community: "Comunidade",
+};
+
+// 德语分组标题映射
+const GROUP_TITLES_DE: Record<string, string> = {
+  guide: "Anleitungen",
+  mechanics: "Spielmechaniken",
+  multiplayer: "Mehrspieler",
+  controls: "Steuerung & Einstellungen",
+  release: "Release & Updates",
+  platforms: "Plattformen",
+  community: "Community",
 };
 
 // locale → 分组标题映射
 const GROUP_TITLES_BY_LOCALE: Record<string, Record<string, string>> = {
-  ja: GROUP_TITLES_JA,
+  es: GROUP_TITLES_ES,
+  pt: GROUP_TITLES_PT,
+  de: GROUP_TITLES_DE,
 };
 
 // locale → "Overview" 翻译
 const OVERVIEW_LABEL_BY_LOCALE: Record<string, string> = {
-  ja: "一覧",
+  es: "Resumen",
+  pt: "Visão geral",
+  de: "Übersicht",
 };
 
 // 分组排序顺序
 const GROUP_ORDER: string[] = [
-  "guide", "races", "bosses", "maps", "skills", "codes", "tier-list",
+  "guide", "mechanics", "multiplayer", "controls", "release", "platforms", "community",
 ];
 
 /**

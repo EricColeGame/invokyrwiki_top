@@ -1,0 +1,99 @@
+export const metadata = {
+  title: "Invokyr Demo Controls: Keybinds, Remapping, and Settings Guide",
+  description: "A practical guide to Invokyr demo controls: where to find keybinds, how to remap them, controller support, and fixes for common input issues.",
+  category: "controls",
+  date: "2026-09-28",
+}
+
+## Why the Invokyr Demo Controls Deserve a Closer Look
+
+Loading into a new demo should be the easy part, but the first few minutes often turn into a hunt for the **Invokyr demo controls**. If you cannot move, aim, or open a menu, you cannot judge whether the game is worth wishlisting — and a demo exists precisely so you can make that call quickly. Knowing where the **Invokyr demo controls** live, how to rebind them, and what to do when an input refuses to register saves you from a frustrating first session and lets you actually evaluate the gameplay instead of fighting the interface.
+
+There is a second reason to care. Demo builds are compressed versions of a larger project, and that compression frequently shows up in the control layer. Some demos ship with a complete remapping suite; others lock you into a fixed scheme while the developers keep iterating on the final layout. Either way, the control scheme is the first system you touch, and it shapes every impression you form afterward. If movement feels sticky or an action sits on a key your hand cannot comfortably reach, you will blame the game — even when the real problem was a default binding you could have changed in thirty seconds.
+
+A quick note on sourcing: public documentation for the demo is still thin, so this guide focuses on the menu structure, rebinding workflow, and troubleshooting steps that apply to the build, plus widely used input conventions you can verify in-game. Treat any specific binding list as a starting point, not gospel — the in-game controls menu is always the authoritative source.
+
+## Where to Find the Invokyr Demo Controls
+
+Before you start pressing keys at random, know where the information actually lives. Most demos hide their control list in one of a handful of predictable places, and the reliability of each source varies a lot.
+
+| Source | What you get | Reliability |
+| --- | --- | --- |
+| In-game Settings → Controls | Full binding list, remap options, sensitivity sliders | Highest — it matches your exact build |
+| Pause menu overlay | Quick reference card, sometimes a static image | High, but often incomplete |
+| Steam store page and community hub | Feature list, developer posts, patch notes | Good for confirmations, weak on detail |
+| Developer Discord or official site | Patch notes, known-issue threads, hotfix timing | Good, but requires digging |
+| Community reports on forums and Reddit | Real-world fixes for stubborn input bugs | Variable — useful, but verify before trusting |
+
+The fastest path is almost always the in-game settings screen. Open it before your first real session, not after. Reading the list takes under a minute and immediately tells you whether the demo supports full remapping or only a preset swap. If the menu shows a locked padlock icon next to an action, that binding is fixed by the developers and no amount of tinkering will move it.
+
+One more tip: check the official [Invokyr page on Steam](https://store.steampowered.com/app/4704030/) for patch notes. When a demo gets a hotfix, control fixes are frequently the first thing mentioned, because they are cheap to ship and generate the loudest feedback.
+
+## How to Rebind and Customize Your Invokyr Demo Controls
+
+Rebinding is usually a four-step job, and the order matters because some menus apply changes instantly while others wait for a confirmation prompt.
+
+1. **Open the settings menu from the main menu first.** Changing bindings mid-session sometimes fails to save if the demo crashes or you quit abruptly.
+2. **Select the input device profile.** Keyboard/mouse and gamepad are stored as separate profiles in most modern builds, so remapping one will not affect the other.
+3. **Choose the action, then press the new key.** If the key is already assigned, expect a conflict warning — resolve it before moving on.
+4. **Apply, then back out fully to the main menu.** This forces a write to the config file. Launching straight into gameplay can skip the save step.
+5. **Test in a low-pressure area.** Walk, turn, interact, and open every menu once before you commit to a long session.
+
+The settings you should tune alongside your bindings:
+
+| Setting | What it changes | Recommended starting point |
+| --- | --- | --- |
+| Mouse/right-stick sensitivity | Camera speed | Start low, raise in small steps |
+| Invert Y-axis | Vertical camera direction | Personal preference — set it now, not later |
+| Aim assist | How much the game helps you track | On for controller, off for mouse |
+| Vibration / haptics | Controller feedback strength | Medium; drop to low if it distracts |
+| Hold vs. toggle | Whether a button must be held or tapped | Toggle for accessibility, hold for speed |
+| Dead zone | Stick input threshold | Raise slightly if you get drift |
+
+Community reports suggest that most "the controls feel awful" complaints in demos trace back to sensitivity and dead zone, not to the binding layout itself. Before you rebuild the entire scheme, spend two minutes on those two sliders.
+
+## Keyboard, Controller, and Steam Deck Support Compared
+
+Input method changes how a demo feels more than almost any other variable. Here is how the three main setups typically differ, and what to check for in each.
+
+| Platform | Typical strengths | Typical pain points | What to verify first |
+| --- | --- | --- | --- |
+| Keyboard and mouse | Precise camera control, fast menu navigation | Cramped default bindings, no analog movement | Sensitivity curve and sprint/interact placement |
+| Xbox / PlayStation controller | Comfortable for long sessions, analog movement | Aim assist may be required, dead zone issues | Whether the game auto-detects your pad |
+| Steam Deck / handheld | Portable, built-in controller mapping layer | Small text in menus, battery cost of haptics | Community layout availability in Steam Input |
+| Generic / third-party pads | Cheap and often fine | Button prompts may not match the physical layout | Prompt icons vs. actual buttons |
+
+If your controller is not detected, the fix is usually outside the game. Steam's controller settings can override or block a pad before the demo ever sees it. Unplugging and replugging, switching from wireless to wired, or toggling Steam Input for the title resolves the majority of detection failures. On handhelds, downloading a community controller layout is often faster than building your own from scratch.
+
+## Fixing Common Control Problems in the Demo
+
+Most input problems fall into a small number of categories. Work through the table below before assuming the demo is broken.
+
+| Symptom | Likely cause | Fix |
+| --- | --- | --- |
+| Keys do nothing in-game | Window lost focus, or an overlay is capturing input | Click the game window, close overlays, alt-tab back in |
+| Bindings reset every launch | Config file not writable, or cloud sync conflict | Run as administrator, disable cloud sync temporarily |
+| Mouse look stutters | High polling rate mouse, background app interference | Lower polling rate, close capture software |
+| Controller double-inputs | Both Steam Input and native support active | Disable one of the two |
+| Actions trigger twice | Toggle and hold settings conflict | Switch the action to a single mode |
+| Aim feels sluggish | Aim assist fighting your input | Lower or disable assist |
+
+A few of these deserve extra attention. Double-input is the single most common controller complaint in demos, and it is almost always caused by two input layers running at once — the game's native support and Steam's translation layer. Turning off one immediately fixes it. The bindings-reset issue is rarer but more annoying; if your settings vanish on every launch, the demo probably cannot write to its config folder, which a permissions change usually solves.
+
+Accessibility settings are worth a pass even if you do not need them. Larger subtitles, hold-to-toggle conversions, reduced camera shake, and colorblind modes all appear in more demos every year, and toggling them on can reveal options that make long sessions far more comfortable.
+
+## FAQ
+
+**Where do I find the Invokyr demo controls in the menu?**
+Open the settings screen from the main menu and look for a Controls or Input tab. That panel holds the full binding list, sensitivity sliders, and any remapping options the build supports. Check it before your first session rather than after.
+
+**Can I fully remap the Invokyr demo controls?**
+That depends on the build. Many demos allow complete remapping, while others lock certain actions to fixed keys. If a binding shows a lock icon or refuses to accept a new input, it is fixed by the developers and cannot be changed.
+
+**Why does my controller not work with the demo?**
+The most common causes are Steam Input conflicts, a dead battery, or a wireless connection that dropped during launch. Try a wired connection first, then check whether Steam's controller configuration is overriding the game's native support.
+
+**Do my control settings carry over to the full game?**
+Usually not. Demo configs are stored separately from the full release, so expect to redo your bindings after launch. Screenshot your layout before the demo ends — it takes ten seconds and saves a lot of guesswork later.
+
+Getting comfortable with the control scheme is the difference between writing a demo off in five minutes and discovering something you actually want to play. Spend the time up front, tune the sensitivity, resolve any input conflicts, and the rest of the demo will tell you what you actually came to find out.

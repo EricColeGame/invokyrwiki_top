@@ -1,0 +1,131 @@
+export const metadata = {
+  title: "Invokyr Push to Talk Guide: Fix Voice Chat Controls and Dead-State Audio",
+  description: "Invokyr push to talk not working? Learn how to bind your mic key, tune audio settings, and fix the dead-state voice bug reported by players.",
+  category: "controls",
+  date: "2026-09-28",
+}
+
+## Why Invokyr Push to Talk Deserves a Spot in Your Keybinds
+
+If you have ever watched a teammate walk straight into danger while your microphone sat silent, you already know why Invokyr push to talk is worth configuring properly. Voice chat is the fastest way to share information in a co-op game, and a reliable Invokyr push to talk binding keeps your channel clean while still letting you call out trouble the moment it appears. Get it wrong and you either broadcast every sound in your room or say nothing at all.
+
+The gap between a clean run and a wipe is often measured in seconds. Typing is too slow when something is chasing you, and an open microphone picks up keyboards, fans, music, and whoever else is in the house. Push to talk solves both problems at once: your voice only transmits while you hold a key, so your team hears useful callouts instead of background noise.
+
+Before you touch a single setting, it helps to know which voice mode actually fits your setup.
+
+| Voice mode | How it works | Best for | Main drawback |
+|---|---|---|---|
+| Push to talk | Transmits only while a bound key is held | Public lobbies, noisy rooms, shared spaces | Needs a comfortable, conflict-free key |
+| Open mic | Microphone is live the entire session | Private groups in quiet rooms | Constant background noise and echo |
+| Voice activation | Sends audio above a volume threshold | Players whose hands stay busy | Threshold tuning, accidental triggers |
+| Voice chat off | No transmission at all | Solo practice or testing | Zero coordination with teammates |
+
+## How to Set Up Invokyr Push to Talk Step by Step
+
+Menu labels can shift between patches, so treat the table below as a map rather than a script. The general flow — open settings, find the voice options, switch the input mode, then bind a key — has stayed consistent across most multiplayer games built on the same voice framework.
+
+| # | Step | Where to look | What to confirm |
+|---|---|---|---|
+| 1 | Open the settings menu | Main menu or pause menu | You are editing the right profile |
+| 2 | Find the voice or audio tab | A tab labeled Audio, Voice, or Sound | Voice chat is enabled, not disabled |
+| 3 | Switch the input mode | Voice input or transmission mode | Set to Push to Talk, not Open Mic |
+| 4 | Bind your key | Controls or keybinds menu | No conflict warning appears next to it |
+| 5 | Pick the correct microphone | Input device dropdown | Your headset mic, not a webcam or monitor |
+| 6 | Test the level | Mic test or voice activity meter | The meter moves only while you hold the key |
+| 7 | Save and relaunch | Apply or confirm button | The setting survives a full restart |
+
+A few habits make this process much smoother:
+
+- **Test in a private lobby first.** You do not want your first transmission to be a screech of feedback in a full match.
+- **Speak normally during the test.** Whispering into the mic tells you nothing about how you will sound when you are panicking.
+- **Restart after binding.** Some voice systems only register a new key after the game reloads its input layer.
+- **Recheck after every patch.** Updates occasionally reset audio settings back to defaults.
+
+## The Dead-State Bug: Invokyr Push to Talk While You Are Down
+
+Here is where community reports get interesting. On the game's Steam discussion board, a player [reported that push to talk stopped working while their character was dead](https://steamcommunity.com/app/3883570/discussions/0/569288789836617801/), and noted it also failed inside the game room. A second player bumped the thread weeks later, which suggests the issue was not a single fluke at the time. That is player experience, not an official statement, and the behavior may well have changed since then.
+
+There are two plausible explanations. The first is a straightforward bug: the voice system loses its binding when the player state changes from alive to dead, and never re-initializes it. The second is intentional design. Plenty of co-op games deliberately mute dead players so they cannot feed live information to teammates who are still standing. If that is the case here, no amount of rebinding will bring your mic back until you respawn.
+
+| Situation | What players report | Likely explanation | What to try |
+|---|---|---|---|
+| Dead and waiting to respawn | Mic key produces nothing | Intentional mute or a state-based bug | Wait for respawn, then retest |
+| Dead inside the game room | Voice chat still silent | Lobby may not re-initialize voice | Leave the lobby and rejoin |
+| Alive during a match | Works as expected | No issue present | Nothing required |
+| Spectating after death | Inconsistent between sessions | Voice tied to the alive state | Rebind the key and test next round |
+
+If you want to confirm whether the behavior is universal, ask your teammates directly. A quick "can you hear me now?" while alive, then again while down, tells you more in thirty seconds than an hour of guessing.
+
+## Troubleshooting Checklist When Invokyr Push to Talk Fails
+
+Most voice problems are not game bugs at all. They come from the operating system, the headset, or a second program fighting for the same device. Work down this list before you assume the game is at fault.
+
+| Symptom | Likely cause | Fix |
+|---|---|---|
+| No transmission at all | Wrong input device selected | Reselect your headset in both the game and Windows sound settings |
+| Works in menus, fails in a match | Key conflict or overlay interference | Rebind the key; disable overlays temporarily |
+| Teammates hear an echo | Speaker bleed into an open mic | Switch to a headset and lower speaker volume |
+| Key stops working after alt-tab | Window loses focus | Run in borderless or fullscreen mode |
+| Audio sounds delayed or robotic | Bluetooth headset latency | Switch to a wired or 2.4 GHz wireless connection |
+| Mic is far too quiet | Low input gain | Raise the input volume, enable mic boost only if needed |
+| Only some teammates hear you | Their output settings, not yours | Ask them to check their voice chat volume |
+
+One underrated fix: check your operating system's microphone privacy settings. If the game lacks permission to access the mic at the OS level, no in-game option will help, and the symptom looks exactly like a broken push to talk key.
+
+## Choosing the Best Key and Audio Settings for Invokyr Push to Talk
+
+Key choice matters more than most players expect. You need something you can hold for several seconds without cramping your hand or interrupting movement.
+
+| Key option | Pros | Cons | Verdict |
+|---|---|---|---|
+| Mouse side button | Thumb reach, no movement loss | Mouse software can swallow the input | Best all-round choice |
+| Left Alt or Left Shift | Easy reach, natural for most hands | May clash with sprint or walk toggles | Good if unbound elsewhere |
+| V, B, or N | Close to the thumb, out of the way | Often conflicts with inventory or melee | Check your bindings first |
+| Caps Lock or T | Rarely used in most games | Awkward reach, toggles Caps Lock | Acceptable fallback |
+| Mouse wheel click | Instant response | Accidental triggers while scrolling | Use with caution |
+
+Audio settings deserve the same attention as your keybind.
+
+| Setting | Recommended value | Why it matters |
+|---|---|---|
+| Input device | Your headset microphone | Prevents the wrong device from capturing audio |
+| Input volume | Mid-range, peaking below maximum | Avoids clipping and distortion on loud callouts |
+| Microphone boost | Off unless your mic is genuinely quiet | Boosting a noisy signal amplifies the noise too |
+| Noise suppression | On, if the game offers it | Filters fans, keyboards, and room hum |
+| Voice chat output | Comfortable but audible | Callouts you cannot hear are useless |
+
+If your keyboard or mouse software supports per-application profiles, create one just for Invokyr. That way your push to talk binding never interferes with the shortcuts you rely on everywhere else.
+
+## Team Communication Habits That Make Voice Chat Worth It
+
+A working microphone is only half the equation. The other half is knowing when to use it. Short, specific callouts beat long narration every time.
+
+- **Name the location, not just the problem.** "Behind the door" is useless if there are six doors.
+- **Keep it under three seconds.** Long explanations belong in the lobby, not mid-chase.
+- **Confirm what you heard.** A quick "got it" tells your teammate the message landed.
+- **Stay quiet when nothing is happening.** Silence is what makes push to talk worth using.
+- **Never blame over the mic.** Tilt spreads faster through voice than through text.
+
+Players who combine a comfortable keybind with disciplined callouts consistently report better coordination than groups who simply leave an open mic running all session.
+
+## FAQ
+
+**Why is my Invokyr push to talk not working at all?**
+
+Start with the operating system. Confirm the game has microphone permission, then verify the correct input device is selected in both Windows and the in-game audio menu. If your meter moves during a mic test but teammates still cannot hear you, the problem is on their output side, not your input.
+
+**Is Invokyr push to talk supposed to stop working when you die?**
+
+Community reports suggest voice transmission stops while dead and sometimes inside the game room, but there is no confirmed official explanation. It may be a state-related bug, or it may be deliberate to prevent dead players from relaying live information. Test it with a friend in a private lobby to see how it behaves on your current build.
+
+**Can I use a controller for Invokyr push to talk?**
+
+It depends on whether the game exposes voice chat as a bindable controller action. If it does, map it to a button your thumb can hold without leaving the movement stick — usually a shoulder button or a rear paddle. If not, keep a keyboard within reach for voice only.
+
+**Does Invokyr push to talk work in the lobby or game room?**
+
+Player experience suggests it can be unreliable there, which is why many groups do their mic checks before the match starts rather than in the lobby. If your key works during a match but not in the game room, leave and rejoin the room and retest.
+
+**How often should I recheck my Invokyr push to talk settings?**
+
+After every major update. Patches occasionally reset audio preferences, and a single reset binding can silence an entire session. Spend thirty seconds in a private lobby before your first match of the night and you will never be caught without a voice.
