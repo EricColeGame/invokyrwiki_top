@@ -32,6 +32,7 @@ export const siteConfig: SiteConfig = {
     discord: "https://discord.gg/A2anGpvp24",
     youtube: "https://www.youtube.com/@LudogramGames",
   },
-  locales: ["en", "es", "pt", "de", "fr"],
+  // 与 src/i18n/routing.ts 的 locales 保持完全一致（routing.ts 是唯一真相源）。
+  locales: ["en", "es", "pt", "de"],
   defaultLocale: "en",
 };
