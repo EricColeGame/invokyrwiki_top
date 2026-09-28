@@ -22,10 +22,10 @@ export const siteConfig: SiteConfig = {
   name: "Invokyr Wiki",
   shortName: "Invokyr",
   logoText: "I",
-  tagline: "Co-op Horror Board Game Guides, Mechanics & Walkthroughs",
+  tagline: "Fantasy Summoning RPG Guides, Characters & Mechanics",
   description: "Invokyr Wiki provides guides, character info, gameplay tips, item details, and community resources to help players explore Invokyr and master its mechanics.",
   url: process.env.NEXT_PUBLIC_SITE_URL || "https://invokyrwiki.top",
-  supportEmail: `support@${new URL(process.env.NEXT_PUBLIC_SITE_URL || "https://invokyrwiki.top").hostname.replace(/^www\./, "")}`,
+  supportEmail: "support@invokyrwiki.top",
   gameUrl: "https://store.steampowered.com/app/3883570/Invokyr/",
   heroVideoId: "hJ-JsDsMrvw", // Invokyr - Official Early Access Release Date Trailer (Ludogram)
   social: {
