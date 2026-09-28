@@ -43,22 +43,22 @@
         {
           "number": "1",
           "title": "Beginner Guide",
-          "description": "Master the Spirit World from day one with our comprehensive beginner guide covering controls, combat, and early progression."
+          "description": "Learn the cursed board game loop from your first roll: setting up the table, managing single-use dice, and surviving your first night in the manor."
         },
         {
           "number": "2",
-          "title": "Fastest Leveling",
-          "description": "Dominate early game and max your progression with the most efficient leveling routes and strategies."
+          "title": "Dice Guide",
+          "description": "Understand every die type, cursed idol, and one-use effect so your squad never burns a powerful roll on the wrong room."
         },
         {
           "number": "3",
-          "title": "Best Farming Spots",
-          "description": "Maximize your Soul Essence and EXP gains with optimal farming locations for every stage."
+          "title": "Riddles & Secret Room",
+          "description": "Solve the manor's riddles and uncover hidden rooms that hand out extra dice, shortcuts, and the clues you need before the finale."
         },
         {
           "number": "4",
-          "title": "How to Extract",
-          "description": "Learn the best methods and locations for extracting resources in Invokyr."
+          "title": "Monsters & Survival",
+          "description": "Study how the Gamemaster spawns hunters across the jungle, ice mountain, and toy chest biomes, and learn how to break line of sight and escape."
         }
       ]
     },
@@ -66,237 +66,349 @@
       "eyebrow": "Popular Pages",
       "title": "Trending Now",
       "quickLinks": [
-        "Hollow Progression",
-        "Fastest Leveling",
-        "Spirit Charms",
-        "All Boss Guides"
+        "Beginner Guide",
+        "Dice Mechanics",
+        "How to Win",
+        "Monsters Guide"
       ],
       "cards": [
         {
           "badge": "Beginner",
-          "title": "Beginner Guide",
-          "description": "Everything you need from your first login to mastering the basics of combat and progression.",
-          "href": "/beginner-guide"
+          "title": "Invokyr Guide",
+          "description": "The complete cursed board game walkthrough: dice discipline, riddle solutions, the secret room, and the final escape sequence.",
+          "href": "/guide/invokyr-guide"
+        },
+        {
+          "badge": "Popular",
+          "title": "Dice Mechanics",
+          "description": "Every single-use die, cursed idol effect, and the timing that decides whether your squad finishes the board.",
+          "href": "/mechanics/invokyr-dice"
         },
         {
           "badge": "Updated",
-          "title": "Active Codes",
-          "description": "All working codes with rewards redeem before they expire.",
-          "href": "/codes"
+          "title": "How to Win",
+          "description": "The two conditions behind the finale: bring the board game into the final room and enable voice input.",
+          "href": "/guide/invokyr-how-to-win"
+        },
+        {
+          "badge": "New",
+          "title": "Monsters Explained",
+          "description": "How the Gamemaster spawns threats, what each biome does to a hunt, and the habits that keep hunters off your squad.",
+          "href": "/mechanics/invokyr-monsters"
+        },
+        {
+          "badge": "Popular",
+          "title": "Multiplayer & Co-op",
+          "description": "Roles, dice ownership, and voice discipline for squads of one to six players surviving the Gamemaster together.",
+          "href": "/multiplayer/invokyr-multiplayer"
+        },
+        {
+          "badge": "New",
+          "title": "Secret Room Guide",
+          "description": "How the labyrinth hides rooms, where to search for extra dice, and the tells that reveal a hidden door.",
+          "href": "/mechanics/invokyr-secret-room"
         },
         {
           "badge": "Updated",
-          "title": "Equipment Database",
-          "description": "94 items across 5 slots complete gear database with stats, rarity, and sources.",
-          "href": "/equipment"
+          "title": "Release Date & Early Access",
+          "description": "Confirmed launch date, unlock times, demo status, pricing, and platform support for Invokyr.",
+          "href": "/release/invokyr-release-date"
         },
         {
           "badge": "Popular",
-          "title": "Which Race Should You Pick?",
-          "description": "Shinigami, Quincy, or Hollow compare all three and find your perfect playstyle.",
-          "href": "/races/best-race"
-        },
-        {
-          "badge": "New",
-          "title": "Enemies & Monsters",
-          "description": "23 enemy types across 5 regions drops, locations, and farming tips.",
-          "href": "/enemies"
-        },
-        {
-          "badge": "Popular",
-          "title": "Boss Locations & Drops",
-          "description": "Every boss location, drop table, and respawn timer in one reference.",
-          "href": "/boss-locations-drops-respawn-times"
-        },
-        {
-          "badge": "Popular",
-          "title": "Best Builds",
-          "description": "Optimal stat allocation, skill tree picks, and Charm combos for every playstyle.",
-          "href": "/builds/best-builds"
-        },
-        {
-          "badge": "New",
-          "title": "Shikai Tier List",
-          "description": "All 6 Shinigami Shikai types ranked by PvP and PvE performance.",
-          "href": "/tier-list/shikai"
-        },
-        {
-          "badge": "New",
-          "title": "World Events Guide",
-          "description": "Supply Caches, Raids, and endgame world events with rare rewards.",
-          "href": "/world-events"
+          "title": "Controls & Settings",
+          "description": "Default keyboard layout, interaction prompts, and the workarounds that make the game feel better to play.",
+          "href": "/controls/invokyr-controls"
         }
       ]
     },
     "aboutGame": {
       "title": "What is Invokyr?",
       "paragraphs": [
-        "Invokyr is a stylized fighting RPG on Roblox inspired by the Bleach anime universe. Choose from three playable races Shinigami, Quincy, or Hollow each with unique progression systems, unlockable abilities, and evolution paths. Master over 130 skills as you fight your way to the level 100 cap.",
-        "Whether you're unlocking your first Shikai, evolving from a base Hollow into an Arrancar, or grinding Quincy Lieutenant missions, our wiki covers every system with detailed guides, data tables, and step-by-step walkthroughs."
+        "Invokyr is a co-op survival horror game built around a cursed 1970s board game. You and up to five friends are trapped in a groaning manor where a bitter, whimsical Gamemaster invites you to play, and every roll of the dice can summon a trap, a curse, or a creature that hunts in its own way. The house is a labyrinth split into jungle, ice mountain, and oversized toy chest biomes, and losing your way back to the board can end a run.",
+        "Escape is never a single switch. Your team has to recover golden idols, spend limited single-use dice wisely, clear stacked curses, and carry the board game itself into the final room before the spoken ending will trigger. Invokyr enters Steam Early Access on October 8, 2026, developed and published by Ludogram, with a free demo already available so you can learn the dice economy before launch."
       ],
       "stats": [
         {
           "label": "Developer",
-          "value": "Midnight Continent"
+          "value": "Ludogram"
+        },
+        {
+          "label": "Publisher",
+          "value": "Ludogram / Shochiku"
         },
         {
           "label": "Platform",
-          "value": "Roblox"
+          "value": "PC (Steam)"
         },
         {
           "label": "Genre",
-          "value": "Fighting RPG"
+          "value": "Co-op Survival Horror"
         },
         {
-          "label": "Visits",
-          "value": "12.6M+"
+          "label": "Players",
+          "value": "1-6 Online Co-op"
         },
         {
-          "label": "Favorites",
-          "value": "243K+"
-        },
-        {
-          "label": "Total Skills",
-          "value": "130+"
-        },
-        {
-          "label": "Level Cap",
-          "value": "100"
+          "label": "Early Access",
+          "value": "October 8, 2026"
         }
       ],
       "cta": "Explore All Guides"
     },
     "explore": {
       "title": "Explore Invokyr Wiki",
-      "description": "Master your seafood restaurant on Roblox with essential progression guides, active codes, complete fish & recipe catalogs, and optimal upgrade strategies.",
+      "description": "Master the cursed board game with progression guides, dice and idol breakdowns, monster and biome references, and co-op survival strategies.",
       "modules": [
         {
           "order": 1,
-          "name": "Invokyr Working Codes",
-          "description": "Redeem the latest working codes to claim free coins, gems, exclusive cosmetics, and boost items before they expire.",
-          "href": "/codes/invokyr-codes",
-          "displayType": "code-box",
+          "name": "Invokyr Wiki Beginner Guide",
+          "description": "A starter path through the cursed board game covering table setup, turn order, dice discipline, and the first-run loop that keeps a squad alive.",
+          "href": "/guide/invokyr-guide",
+          "displayType": "step-by-step",
           "highlights": [
             {
-              "label": "Code",
-              "detail": "FULLRELEASE — Free Cash & Rewards"
+              "label": "1",
+              "detail": "Place the board game on the table and roll to reveal the first spaces."
             },
             {
-              "label": "Code",
-              "detail": "75KLIKES — Exclusive Ability Reroll"
+              "label": "2",
+              "detail": "Search rooms in pairs and mark a route back to the central board."
             },
             {
-              "label": "Tip",
-              "detail": "Codes are case-sensitive; enter them in the Settings menu"
+              "label": "3",
+              "detail": "Recover golden idols and convert them into single-use dice."
+            },
+            {
+              "label": "4",
+              "detail": "Read every dice result before anyone moves or commits."
+            },
+            {
+              "label": "5",
+              "detail": "Clear stacked curses before pushing deeper into a new biome."
+            },
+            {
+              "label": "6",
+              "detail": "Regroup at the board and confirm every objective before the finale."
             }
           ]
         },
         {
           "order": 2,
-          "name": "Beginner Guide: How to Start & Serve Customers",
-          "description": "Step-by-step beginner guide covering customer ordering, food prep, station management, and cashier checkout mechanics.",
-          "href": "/guide/invokyr-beginner-guide",
-          "displayType": "feature-cards",
+          "name": "Invokyr Wiki Monsters Guide",
+          "description": "How the Gamemaster spawns threats, what each biome does to a hunt, and the survival habits that keep hunters from cornering your squad.",
+          "href": "/mechanics/invokyr-monsters",
+          "displayType": "card-list",
           "highlights": [
             {
-              "label": "Step 1",
-              "detail": "Take customer order at the stall front"
+              "label": "Spawns",
+              "detail": "Creatures manifest from board events and the central table, not fixed patrol routes."
             },
             {
-              "label": "Step 2",
-              "detail": "Cook seafood on the grill or boil station"
+              "label": "Jungle",
+              "detail": "Dense cover hides both your squad and the hunters tracking you."
             },
             {
-              "label": "Step 3",
-              "detail": "Serve warm food promptly for maximum customer tips"
+              "label": "Ice Peak",
+              "detail": "Open, slippery corridors reward fast and direct pursuit."
+            },
+            {
+              "label": "Toy Chest",
+              "detail": "Oversized props and clutter turn every room into a tight maze."
+            },
+            {
+              "label": "Yeti",
+              "detail": "A signature biome hunter that punishes long straight runs."
+            },
+            {
+              "label": "Utility",
+              "detail": "Hiding and hindering dice are your most direct answer to a chase."
             }
           ]
         },
         {
           "order": 3,
-          "name": "Seafood & Fish Tier List",
-          "description": "Complete breakdown of all catchable fish and seafood ranked by market value, customer demand, and profit margins.",
-          "href": "/seafood/invokyr-tier-list",
+          "name": "Invokyr Wiki Dice Guide",
+          "description": "Every die is single-use, so timing decides the run. This tier list ranks the dice and cursed idol effects that matter most.",
+          "href": "/mechanics/invokyr-dice",
           "displayType": "tier-grid",
           "highlights": [
             {
-              "label": "S Tier",
-              "detail": "King Crab · Lobster Boil — Highest profit per customer"
+              "label": "S",
+              "detail": "Revive and healing dice turn a wiped run back into a finish."
             },
             {
-              "label": "A Tier",
-              "detail": "Salmon · Jumbo Shrimp · Tuna Steak — Reliable fast earners"
+              "label": "A",
+              "detail": "Hiding and hindering dice break line of sight and open escape windows."
             },
             {
-              "label": "B Tier",
-              "detail": "Clams · Oysters · Squid — Great mid-game margin"
+              "label": "B",
+              "detail": "Standard movement rolls keep board progress steady when the house is calm."
             },
             {
-              "label": "C Tier",
-              "detail": "Common Sardines · Small Crab — Starter seafood"
+              "label": "C",
+              "detail": "Curse and hazard dice are never sought deliberately and only used when forced."
             }
           ]
         },
         {
           "order": 4,
-          "name": "Best Upgrades Progression",
-          "description": "Optimal order to spend your cash: expand kitchen stations, hire waitstaff, speed up grills, and upgrade seating.",
-          "href": "/upgrades/invokyr-best-upgrades",
-          "displayType": "feature-cards",
+          "name": "Invokyr Wiki Boards & Biomes",
+          "description": "A tour of the manor boards, the biomes inside them, and how layout changes the way your squad moves, hides, and gets cornered.",
+          "href": "/guide/invokyr-walkthrough",
+          "displayType": "card-list",
           "highlights": [
             {
-              "label": "Priority 1",
-              "detail": "Cooking Speed & Extra Burners — Clears customer backlog"
+              "label": "Board",
+              "detail": "The central 1970s game table anchors every run and drives event rolls."
             },
             {
-              "label": "Priority 2",
-              "detail": "Customer Seating Capacity — Increases simultaneous diners"
+              "label": "Jungle",
+              "detail": "Humid, overgrown rooms where cover works for hunters too."
             },
             {
-              "label": "Priority 3",
-              "detail": "Auto-Chef / Waiter Staff — Passive hands-free revenue"
+              "label": "Ice Peak",
+              "detail": "Frozen corridors with long sightlines and slippery footing."
+            },
+            {
+              "label": "Toy Chest",
+              "detail": "Warped scale and giant props turn navigation into a maze."
+            },
+            {
+              "label": "Labyrinth",
+              "detail": "Getting lost away from the board is one of the fastest ways to die."
+            },
+            {
+              "label": "Shortcuts",
+              "detail": "Hidden seams and secret rooms can skip a dangerous stretch."
             }
           ]
         },
         {
           "order": 5,
-          "name": "How to Get Cash Fast",
-          "description": "Top money-making strategies, VIP evaluation, tip maximization, and high-efficiency serving tips.",
-          "href": "/guide/invokyr-how-to-get-cash-fast",
-          "displayType": "feature-cards",
+          "name": "Invokyr Wiki Multiplayer Guide",
+          "description": "Co-op roles, dice ownership, and voice discipline for squads of one to six players trying to survive the Gamemaster together.",
+          "href": "/multiplayer/invokyr-multiplayer",
+          "displayType": "step-by-step",
           "highlights": [
             {
-              "label": "Combo",
-              "detail": "Chain orders quickly to build the Customer Happiness multiplier"
+              "label": "1",
+              "detail": "Pick a role before the first roll so dice end up with the right player."
             },
             {
-              "label": "High Margin",
-              "detail": "Focus high-tier seafood boils during peak customer rush hours"
+              "label": "2",
+              "detail": "Assign one player to track every single-use die the team is carrying."
             },
             {
-              "label": "Reinvest",
-              "detail": "Keep 20% cash reserve for fresh ingredient replenishment"
+              "label": "3",
+              "detail": "Keep voice contact and call out the room you are entering."
+            },
+            {
+              "label": "4",
+              "detail": "Regroup at the board before anyone commits to a risky roll."
+            },
+            {
+              "label": "5",
+              "detail": "Revive downed teammates early, because death is not always the end."
+            },
+            {
+              "label": "6",
+              "detail": "Confirm the board game is with the party before the final room."
             }
           ]
         },
         {
           "order": 6,
-          "name": "Plot Expansion & Stand Customization",
-          "description": "Unlock bigger land plots, arrange optimal cooking layouts, and add high-value decorative upgrades.",
-          "href": "/upgrades/invokyr-how-to-upgrade-plot",
-          "displayType": "feature-cards",
+          "name": "Invokyr Wiki Updates",
+          "description": "Track Early Access patches, roadmap notes, and new content as Ludogram expands the cursed board game after launch.",
+          "href": "/release/invokyr-update",
+          "displayType": "card-list",
           "highlights": [
             {
-              "label": "Plot 1",
-              "detail": "Starter Beach Stand (3 Tables, 1 Grill)"
+              "label": "Launch",
+              "detail": "Early Access begins October 8, 2026 with a simultaneous global unlock."
             },
             {
-              "label": "Plot 2",
-              "detail": "Boardwalk Restaurant (6 Tables, 2 Grills, Boil Station)"
+              "label": "Roadmap",
+              "detail": "Ludogram plans roughly a year of themed updates before 1.0."
             },
             {
-              "label": "Plot 3",
-              "detail": "Luxury Pier Seafood Pavilion (Full Automation & VIP Seating)"
+              "label": "New Dice",
+              "detail": "Additional dice and cursed rules are planned across Early Access."
+            },
+            {
+              "label": "Monsters",
+              "detail": "More than 15 creatures and 20-plus events ship with the core build."
+            },
+            {
+              "label": "Price",
+              "detail": "The price is expected to rise gradually as new content lands."
+            },
+            {
+              "label": "Feedback",
+              "detail": "Player reports shape balancing, difficulty, and onboarding."
+            }
+          ]
+        },
+        {
+          "order": 7,
+          "name": "Invokyr Wiki Tips and Tricks",
+          "description": "Practical survival advice, dice economy rules, and the common mistakes that end runs before the first idol reaches the board.",
+          "href": "/guide/invokyr-how-to-win",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "Read First",
+              "detail": "Read the full dice result before anyone moves or spends an item."
+            },
+            {
+              "label": "One Die",
+              "detail": "Never spend two dice to solve a single problem."
+            },
+            {
+              "label": "Stay Close",
+              "detail": "Splitting across biomes is how stragglers get picked off."
+            },
+            {
+              "label": "Save Idols",
+              "detail": "Bank golden idols early and convert them when danger spikes."
+            },
+            {
+              "label": "Voice On",
+              "detail": "Enable voice input before the finale or the ending will not trigger."
+            },
+            {
+              "label": "Board Hand",
+              "detail": "Carry the board game into the final room as a physical object."
+            }
+          ]
+        },
+        {
+          "order": 8,
+          "name": "Invokyr Wiki Release Information",
+          "description": "Confirmed release dates, demo status, platform support, and pricing so you know exactly when and where to play.",
+          "href": "/release/invokyr-release-date",
+          "displayType": "code-cards",
+          "highlights": [
+            {
+              "label": "Oct 8, 2026",
+              "detail": "Early Access launch on Steam with a simultaneous global unlock."
+            },
+            {
+              "label": "Free Demo",
+              "detail": "The demo launched June 2, 2026 and covers the full cursed board loop."
+            },
+            {
+              "label": "PC / Steam",
+              "detail": "Windows via Steam is the only confirmed platform right now."
+            },
+            {
+              "label": "1-6 Players",
+              "detail": "Online co-op scales from a solo run up to a full squad."
+            },
+            {
+              "label": "$12.99",
+              "detail": "Early Access price, with a launch discount expected at release."
             }
           ]
         }
@@ -308,23 +420,27 @@
       "items": [
         {
           "question": "What is Invokyr?",
-          "answer": "Invokyr is a free-to-play fighting RPG on Roblox based on the Bleach anime. You choose one of game mechanics Shinigami (Soul Reaper), Quincy, or Hollow each with unique progression, combat abilities, and evolution systems. The game features 130+ skills, a level 100 cap, boss fights, and deep build customization."
+          "answer": "Invokyr is a co-op survival horror game built around a cursed 1970s board game. You and up to five friends explore a labyrinthine manor, roll single-use dice, recover golden idols, and try to escape before the Gamemaster's creatures and cursed rules wipe the squad."
         },
         {
-          "question": "Which race should beginners pick?",
-          "answer": "Shinigami is the most straightforward starter race, while Hollow and Quincy offer more specialized progression routes. Compare their abilities before committing."
+          "question": "How many players can play Invokyr?",
+          "answer": "Invokyr supports online co-op for one to six players. Solo runs are possible but demand much tighter dice budgeting, because there is no one to revive you or cover a room."
         },
         {
-          "question": "What is the current level cap?",
-          "answer": "The current level cap is 100, with more than 130 skills available across trees and race progression systems."
+          "question": "When does Invokyr release?",
+          "answer": "Invokyr enters Steam Early Access on October 8, 2026, with a simultaneous global unlock. A free demo launched on June 2, 2026, so you can learn the board and dice systems before launch day."
         },
         {
-          "question": "Where do I find active codes?",
-          "answer": "Use the Codes page for working codes, rewards, expiration notes, and redeem instructions."
+          "question": "What platforms is Invokyr on?",
+          "answer": "Invokyr is confirmed for Windows PC via Steam. Console, macOS, Linux, and Switch versions have not been announced, and Steam Deck compatibility is still unrated."
         },
         {
-          "question": "Are boss guides updated?",
-          "answer": "Boss pages are organized with spawn notes, attack patterns, strategies, drop tables, and related next steps for progression."
+          "question": "How do you win in Invokyr?",
+          "answer": "To escape in Invokyr, your squad must bring the physical board game into the final room and have voice input enabled so the spoken ending phrase registers. Missing either requirement keeps the finale silent."
+        },
+        {
+          "question": "Are the dice reusable in Invokyr?",
+          "answer": "No. Every die recovered from the house is a single-use item, which is why dice discipline and role assignments matter more than raw speed in Invokyr."
         }
       ]
     },
