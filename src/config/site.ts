@@ -19,18 +19,18 @@ export interface SiteConfig {
 }
 
 export const siteConfig: SiteConfig = {
-  name: "My Seafood Stand Wiki",
-  shortName: "My Seafood Stand",
-  logoText: "SS",
-  tagline: "Complete Guides, Codes, Recipes & Tier Lists",
-  description: "Your ultimate guide to My Seafood Stand on Roblox! Explore active working codes, seafood recipes, best upgrades, profit strategies, and progression guides.",
-  url: process.env.NEXT_PUBLIC_SITE_URL || "https://myseafoodstand.top",
-  supportEmail: `support@${new URL(process.env.NEXT_PUBLIC_SITE_URL || "https://myseafoodstand.top").hostname.replace(/^www\./, "")}`,
-  gameUrl: "https://www.roblox.com/games/my-seafood-stand",
-  heroVideoId: "M8DvcwoFRrk", // Roblox My Seafood Stand codes & gameplay video
+  name: "Invokyr Wiki",
+  shortName: "Invokyr",
+  logoText: "I",
+  tagline: "Co-op Horror Board Game Guides, Mechanics & Walkthroughs",
+  description: "Invokyr Wiki provides guides, character info, gameplay tips, item details, and community resources to help players explore Invokyr and master its mechanics.",
+  url: process.env.NEXT_PUBLIC_SITE_URL || "https://invokyrwiki.top",
+  supportEmail: `support@${new URL(process.env.NEXT_PUBLIC_SITE_URL || "https://invokyrwiki.top").hostname.replace(/^www\./, "")}`,
+  gameUrl: "https://store.steampowered.com/app/3883570/Invokyr/",
+  heroVideoId: "hJ-JsDsMrvw", // Invokyr - Official Early Access Release Date Trailer (Ludogram)
   social: {
-    discord: "https://discord.gg/roblox",
-    youtube: "https://www.youtube.com/@roblox",
+    discord: "https://discord.gg/A2anGpvp24",
+    youtube: "https://www.youtube.com/@LudogramGames",
   },
   locales: ["en", "es", "pt", "de", "fr"],
   defaultLocale: "en",
